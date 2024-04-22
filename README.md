@@ -1,5 +1,3 @@
-# jd2504.github.io
-
 ## reading
 
 [Reading log](https://jd2504.github.io/lego/read.html)
