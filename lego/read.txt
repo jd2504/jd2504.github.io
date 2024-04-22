@@ -1,0 +1,110 @@
+readid|title|published|author|format|read|keywords
+aa001|Endure: Mind, Body, and the Curiously Elastic Limits of Human Performance|2018|Alex Hutchinson|Kindle|2021-01-01|running,endurance,sports science,psychology,fitness,biology
+aa002|What I talk about when I talk about running|2009|Haruki Murakami|Kindle|2021-01-14|running,short stories
+aa003|The Three-Body Problem|2014|Cixin Liu|Kindle|2021-01-20|science fiction,physics,fiction,china
+aa004|Outgrowing God|2019|Richard Dawkins|NLB Libby|2021-03-01|religion,christianity,atheism
+aa005|The Four Horsemen|2007|Christopher Hitchens, Richard Dawkins, Sam Harris, Daniel C. Dennet|NLB Libby|2021-03-11|religion,philosophy,atheism
+aa006|Anatomy for Runners|2012|Jay Dicharry|NLB Libby|2021-03-22|anatomy,running,sports science,fitness
+aa007|The God Delusion|2006|Richard Dawkins|NLB Libby|2021-03-30|religion,christianity,islam,atheism
+aa008|The Closing of the Western Mind: The Rise of Faith and the Fall of Reason|2003|Charles Freeman|NLB Libby|2021-04-19|history,religion,christianity
+aa009|The Coddling of the American Mind|2018|Greg Lukianoff, Jonathan Haidt|NLB Libby|2021-05-06|psychology,education,parenting,culture
+aa010|The Body|2019|Bill Bryson|NLB Libby|2021-05-27|anatomy,biology
+aa011|The Brain|2017|David Eagleman|NLB Libby|2021-06-27|neuroscience,biology
+aa012|Born to Run|2009|Christopher McDougall|NLB Libby|2021-07-26|running,tarahumara,ultramarathon
+aa013|The Cool Impossible|2014|Eric Orton|NLB Libby|2021-08-08|running,ultramarathon
+aa014|Mike and Psmith|1953|P.G. Wodehouse|Library|2021-10-26|comic,fiction
+aa015|Eat & Run|2013|Scott Jurek|paperback|2021-11-20|running,nutrition,ultramarathon
+aa016|The Moral Landscape|2011|Sam Harris|NLB Libby|2021-11-21|ethics,philosophy,religion
+aa017|Nine Nasty Words|2021|John McWhorter|NLB Libby|2022-02-11|linguistics
+aa018|The Greatest Show on Earth|2009|Richard Dawkins|NLB Libby|2022-03-01|evolutionary biology,biology,science
+aa019|The Secular Enlightenment|2019|Margaret C. Jacob|NLB Libby|2022-03-17|enlightenment,history
+aa020|The Odyssey|2018|Homer, tr. Emily Wilson|paperback|2022-03-17|greek mythology,epic
+aa021|The Big Picture|2017|Sean Carroll|NLB Libby|2022-04-03|physics,science
+aa022|Free Will|2012|Sam Harris|NLB Libby|2022-04-04|philosophy,free will,neuroscience
+aa023|Waiting for the Barbarians|1980|J. M. Coetzee|paperback|2022-04-07|fiction,south africa,colonialism
+aa024|The Third Chimpanzee|1991|Jared Diamond|NLB Libby|2022-04-13|anthropology,culture
+aa025|Rationality|2021|Steven Pinker|hardcover|2022-04-19|reason,statistics,psychology
+aa026|Enlightenment Now|2018|Steven Pinker|paperback|2022-04-24|history,science,psychology
+aa027|The Constitution of Knowledge|2021|Jonathan Rauch|NLB Libby|2022-04-26|culture,philosophy
+aa028|On Color| 2018|David Scott Kastan|NLB Libby|2022-04-29|color
+aa029|The Beginning of Infinity|2011|David Deutsch|Kindle|2022-05-09|physics,science,philosophy,artificial intelligence
+aa030|Incognito: The Secret Lives of the Brain|2011|David Eagleman|NLB Libby|2022-05-18|neuroscience,cognitive psychology,biology
+aa031|Hitch-22|2011|Christopher Hitchens|NLB Libby|2022-05-30|autobiography
+aa032|Just Six Numbers|2001|Martin Rees|NLB Libby|2022-06-04|physics,science,cosmology,astrophysics
+aa033|The Grand Design|2010|Stephen Hawking|NLB Libby|2022-06-26|physics,cosmology,astrophysics
+aa034|If Then|2020|Jill Lepore|paperback|2022-07-07|data,computing,analytics
+aa035|Klara and the Sun|2021|Kazuo Ishiguro|paperback|2022-07-17|artificial intelligence,fiction,science fiction
+aa036|Time’s Arrow|1991|Martin Amis|paperback|2022-07-21|fiction,time,nazism,holocaust,historical fiction
+aa037|Factfulness|2018|Hans Rosling|paperback|2022-07-23|reason,statistics
+aa038|The Elegant Universe|1999|Brian Greene|NLB Libby|2022-07-24|physics,string theory,science
+aa039|Blood Meridian|1985|Cormac McCarthy|hardcover|2022-07-25|fiction,western
+aa040|Indelible City|2022|Louisa Lim|paperback|2022-07-30|hong kong,history
+aa041|Why Evolution Is True|2010|Jerry Coyne|paperback|2022-08-01|evolutionary biology
+aa042|The Selfish Gene 2016 (40th Anniversary Ed.)|1979|Richard Dawkins|paperback|2022-08-07|evolutionary biology,genetics
+aa043|Seize The Day| 1956|Saul Bellow|paperback|2022-08-08|fiction
+aa044|God Is Not Great|2007|Christopher Hitchens|paperback|2022-08-12|religion,christianity,atheism
+aa045|The Rational Optimist|2010|Matt Ridley|NLB Libby|2022-08-14|reason,economics
+aa046|Pnin|1957|Vladimir Nabokov|paperback|2022-08-14|fiction
+aa047|Homo Deus|2016|Yuval Noah Hariri|NLB Libby|2022-08-30|artificial intelligence,agi
+aa048|Life 3.0|2018|Mark Tegmark|NLB Libby|2022-09-06|artificial intelligence,agi
+aa049|The Cement Garden|1978|Ian McEwan|paperback|2022-09-11|fiction
+aa050|Artificial Intelligence: A Guide for Thinking Humans|2019|Melanie Mitchell|NLB Libby|2022-09-14|artificial intelligence
+aa051|The War On The West|2022|Douglas Murray|hardcover|2022-09-17|culture
+aa052|Kinds of Minds|2019|Daniel C. Dennett|NLB Libby|2022-09-20|consciousness,philosophy
+aa053|The River of Consciousness|2017|Oliver Sacks|NLB Libby|2022-09-22|consciousness,neuroscience
+aa054|The Strange Order of Things|2018|Antonio Damasio|NLB Libby|2022-09-27|neuroscience,time
+aa055|Superintelligence|2014|Nick Bostrom|paperback|2022-10-01|artificial intelligence,agi
+aa056|Unveiled|2019|Yasmine Mohammed|Kindle|2022-10-03|islam,religion
+aa057|The End of Faith|2004|Sam Harris|NLB Libby|2022-10-12|religion,islam,christianity,atheism
+aa058|Shame|1983|Salman Rushdie|paperback|2022-11-04|fiction
+aa059|Conscious|2019|Annaka Harris|Libby|2022-11-06|consciousness,philosophy,neuroscience
+aa060|Lying|2013|Sam Harris|Libby|2022-11-27|philosophy,ethics
+aa061|Endurance: Shackleton's Incredible Voyage|1999|Alfred Lansing|NLB Libby|2022-12-01|biography,explorer
+aa062|The War Poets|1988|Robert Giddings|hardcover|2022-12-16|poetry,world war i
+aa063|Einstein: His Life and Universe|2007|Walter Isaacson|paperback|2022-12-27|biography,physics,relativity,quantum mechanics
+aa064|Tales from Both Sides of the Brain|2015|Michael S. Gazzaniga|SimplyE|2023-01-14|neuroscience,biology,autobiography,cognitive psychology
+aa065|The Pope and Mussolini| 2015|David Kertzer|SimplyE|2023-02-01|history,world war ii,fascism,catholicism
+aa066|The Revolutionary: Samuel Adams|2022|Stacy Schiff|SimplyE|2023-02-14|american revolution,history
+aa067|Rebooting AI|2020|Gary Marcus & Ernest Davis|paperback|2023-03-10|artificial intelligence
+aa068|Human: The Science Behind What Makes Us Unique|2008|Michael S. Gazzaniga|hardcover|2023-03-17|neuroscience,cognitive psychology,biology
+aa069|Seven Brief Lessons on Physics|2016|Carlo Rovelli|kindle|2023-03-28|physics
+aa070|Something Deeply Hidden|2019|Sean Carroll|Libby|2023-03-30|physics,quantum mechanics
+aa071|Helgoland|2021|Carlo Rovelli|Libby|2023-04-06|physics,quantum mechanics
+aa072|The Order of Time|2018|Carlo Rovelli|Libby|2023-04-12|physics,time
+aa073|A Brief History of Time|1988|Stephen Hawking|Libby|2023-05-03|physics
+aa074|The Biggest Ideas in the Universe|2022|Sean Carroll|Libby|2023-05-04|physics,quantum mechanics,relativity
+aa075|Kissinger|2005|Walter Isaacson|Libby|2023-06-10|biography,politics
+aa076|The Gene’s-Eye View of Evolution|2021|J. Arvid Ågren|hardcover|2023-08-12|evolutionary biology,genetics
+aa077|The Inimitable Jeeves|1923|P. G. Wodehouse|paperback|2023-08-15|comic,wodehouse
+aa078|Thomas Jefferson and the Tripoli Pirates|2016|Brian Kilmeade|Libby|2023-08-17|biography,history,american history,islam
+aa079|The Triple Helix: Gene, Organism, and Environment|2000|Richard Lewontin|hardcover|2023-09-04|evolutionary biology,genetics
+aa080|Science in the Soul|2017|Richard Dawkins|Libby|2023-10-03|essays,evolutionary biology
+aa081|Carry On, Jeeves|1925|P. G. Wodehouse|paperback|2023-10-15|fiction,comic
+aa082|Circe|2018|Madeleine Miller|Libby|2023-10-24|fiction,greek mythology
+aa083|Feelings and Knowing|2021|Antonio Damasio|Libby|2023-10-27|neuroscience,biology
+aa084|Irreversible Damage|2020|Abigail Shrier|Libby|2023-11-07|trans rights,gender
+aa085|Behave|2017|Robert Sapolsky|paperback|2023-11-13|neuroscience,biology,psychology,endocrinology
+aa086|If on a winters night a traveler|1979|Italo Calvino|paperback|2023-11-18|fiction
+aa087|The Magic of Reality|2011|Richard Dawkins|Libby|2023-11-28|evolutionary biology,mythology,creation myths
+aa088|Elbow Room|1984|Daniel C. Dennett|Libby|2023-11-30|philosophy,free will
+aa089|The Passenger|2022|Cormac McCarthy|hardcover|2023-12-26|fiction
+aa090|Consciousness Explained|1992|Daniel Dennett|paperback|2023-12-31|consciousness,philosophy,neuroscience
+aa091|Brief Candle in the Dark|2015|Richard Dawkins|Libby|2024-01-25|essays,evolutionary biology
+aa092|Jesus and John Wayne: How White Evangelicals Corrupted a Faith and Fractured a Nation|2020|Kristin Kobes Du Mez|Libby|2024-02-08|religion,christianity,evangelical
+aa093|Heroes: Mortals and Monsters, Quests and Adventures|2018|Stephen Fry|Libby|2024-02-15|greek mythology
+aa094|Not In Our Genes|1984|R. C. Lewontin, Steven Rose, Leon J. Kamin|hardback|2024-02-20|evolutionary biology,genetics
+aa096|Lucky Jim|1954|Kingsley Amis|paperback|2024-02-26|fiction,comic
+aa095|Sentience: The Invention of Consciousness|2023|Nicholas Humphrey|Libby|2024-02-29|artificial intelligence,neuroscience,consciousness
+aa102|Subliminal: How Your Unconscious Mind Rules Your Behavior|2012|Leonard Mlodinow|paperback|2024-03-07|neuroscience,psychology
+aa103|Quantum Man: Richard Feynman's Life in Science|2011|Lawrence M. Krauss|Libby|2024-03-21|quantum mechanics,qed,biography,physics
+aa104|Genius: The Life and Science of Richard Feynman|1993|James Gleick|Libby|2024-04-14|quantum mechanics,qed,biography,physics
+aa105|Lessons|2022|Ian McEwan|hardcover||fiction
+aa098|A Thousand Brains: A New Theory of Intelligence|2021|Jeff Hawkins|hardback||neuroscience,artificial intelligence
+aa100|The Alignment Problem|2020|Brian Christian|paperback||artificial intelligence
+aa097|The Conscious Mind|1997|David J. Chalmers|paperback||consciousness,philosophy
+aa099|Intuition Pumps and Other Tools for Thinking|2014|Daniel C. Dennett|paperback||
+aa101|God: The Most Unpleasant Character in All Fiction|2016|Dan Barker|Libby||christianity,religion,bible
+aa106|Johann Sebastian Bach|2001|Christoph Wolff|Libby||music,biography,bach,baroque
+aa107|A History of Christianity: The First Three Thousand Years|2009|Diarmaid MacCulloch|paperback||christianity,religion,history,catholicism,judaism
+aa108|Determined|2023|Robert M. Sapolsky|hardback||neuroscience,philosophy,free will,biology
+aa109|Johann Sebastian Bach: The Learned Musician|2001|Christoph Wolff|Libby||music,bach,baroque,biography

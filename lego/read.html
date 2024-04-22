@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>eBook of books</title>
+  </head>
+
+  <input type="text" id="titleName" onkeyup="nameSearch()" placeholder="Search for title.." title="Type in a title">
+  <input type="text" id="authorName" onkeyup="authorSearch()" placeholder="Search for author.." title="Type in a author">
+  <input type="text" id="kwName" onkeyup="kwSearch()" placeholder="Search for keyword.." title="Type in a keyword">
+  <input type="text" id="readDate" onkeyup="readSearch()" placeholder="Type in a year.." title="Type in a date">
+  
+
+
+  
+  
+  <script>
+    function nameSearch() {
+      var input, filter, table, tr, td, i, txtValue;
+      input = document.getElementById("titleName");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("readTxt");
+      tr = table.getElementsByTagName("tr");
+      for (i = 0; i < tr.length; i++) {
+	td = tr[i].getElementsByTagName("td")[0];
+	if (td) {
+	  txtValue = td.textContent || td.innerText;
+	  if (txtValue.toUpperCase().indexOf(filter) > -1) {
+	    tr[i].style.display = "";
+	  } else {
+	    tr[i].style.display = "none";
+	  }
+	}       
+      }
+    }
+
+    function authorSearch() {
+      var input, filter, table, tr, td, i, txtValue;
+      input = document.getElementById("authorName");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("readTxt");
+      tr = table.getElementsByTagName("tr");
+      for (i = 0; i < tr.length; i++) {
+	td = tr[i].getElementsByTagName("td")[1];
+	if (td) {
+	  txtValue = td.textContent || td.innerText;
+	  if (txtValue.toUpperCase().indexOf(filter) > -1) {
+	    tr[i].style.display = "";
+	  } else {
+	    tr[i].style.display = "none";
+	  }
+	}       
+      }
+    }
+
+    function kwSearch() {
+      var input, filter, table, tr, td, i, txtValue;
+      input = document.getElementById("kwName");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("readTxt");
+      tr = table.getElementsByTagName("tr");
+      for (i = 0; i < tr.length; i++) {
+	td = tr[i].getElementsByTagName("td")[4];
+	if (td) {
+	  txtValue = td.textContent || td.innerText;
+	  if (txtValue.toUpperCase().indexOf(filter) > -1) {
+	    tr[i].style.display = "";
+	  } else {
+	    tr[i].style.display = "none";
+	  }
+	}       
+      }
+    }
+
+    function readSearch() {
+      var input, filter, table, tr, td, i, txtValue;
+      input = document.getElementById("readDate");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("readTxt");
+      tr = table.getElementsByTagName("tr");
+      for (i = 0; i < tr.length; i++) {
+	td = tr[i].getElementsByTagName("td")[3];
+	if (td) {
+	  txtValue = td.textContent || td.innerText;
+	  if (txtValue.toUpperCase().indexOf(filter) > -1) {
+	    tr[i].style.display = "";
+	  } else {
+	    tr[i].style.display = "none";
+	  }
+	}       
+      }
+    }
+
+    function sortTable(n) {
+      var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+      table = document.getElementById("readTxt");
+      switching = true;
+      // Set the sorting direction to ascending:
+      dir = "asc";
+      while (switching) {
+	// Start by saying: no switching is done:
+	switching = false;
+	rows = table.rows;
+	for (i = 1; i < (rows.length - 1); i++) {
+	  // Start by saying there should be no switching:
+	  shouldSwitch = false;
+	  x = rows[i].getElementsByTagName("TD")[n];
+	  y = rows[i + 1].getElementsByTagName("TD")[n];
+	  if (dir == "asc") {
+	    if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+	      shouldSwitch = true;
+	      break;
+	    }
+	  } else if (dir == "desc") {
+	    if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+	      shouldSwitch = true;
+	      break;
+	    }
+	  }
+	}
+	if (shouldSwitch) {
+	  rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+	  switching = true;
+	  switchcount ++;
+	} else {
+	  if (switchcount == 0 && dir == "asc") {
+	    dir = "desc";
+	    switching = true;
+	  }
+	}
+      }
+    }
+	  
+	  
+  </script>
+
+  <style>
+    table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border: 1px solid #ddd;
+    }
+    th {
+	color: white;
+	background: black;
+	text-align: left;
+	padding: 4px;
+    }
+    td {
+	text-align: left;
+	padding: 4px;
+    }
+    tr:nth-child(even) {
+	background-color: #f2f2f2;
+    }
+    tr:hover {
+	background-color: #D6EEEE;
+    }
+    font-family {
+	arial
+    }
+  
+  </style>
+
+
+  <body>
+    <font size="2" face="Arial" >
+    <h1>eBook of books</h1>
+
+    
+
+
+
+<table border="1" class="dataframe" id="readTxt">
+  <thead>
+    <tr style="text-align: left;">
+      <th onclick="sortTable(0)">title</th>
+      <th onclick="sortTable(1)">author</th>
+      <th onclick="sortTable(2)">published</th>
+      <th onclick="sortTable(3)">read</th>
+      <th>keywords</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Endure: Mind, Body, and the Curiously Elastic Limits of Human Performance</td>
+      <td>Alex Hutchinson</td>
+      <td>2018</td>
+      <td>2021-01-01</td>
+      <td>running,endurance,sports science,psychology,fitness,biology</td>
+    </tr>
+    <tr>
+      <td>What I talk about when I talk about running</td>
+      <td>Haruki Murakami</td>
+      <td>2009</td>
+      <td>2021-01-14</td>
+      <td>running,short stories</td>
+    </tr>
+    <tr>
+      <td>The Three-Body Problem</td>
+      <td>Cixin Liu</td>
+      <td>2014</td>
+      <td>2021-01-20</td>
+      <td>science fiction,physics,fiction,china</td>
+    </tr>
+    <tr>
+      <td>Outgrowing God</td>
+      <td>Richard Dawkins</td>
+      <td>2019</td>
+      <td>2021-03-01</td>
+      <td>religion,christianity,atheism</td>
+    </tr>
+    <tr>
+      <td>The Four Horsemen</td>
+      <td>Christopher Hitchens, Richard Dawkins, Sam Harris, Daniel C. Dennet</td>
+      <td>2007</td>
+      <td>2021-03-11</td>
+      <td>religion,philosophy,atheism</td>
+    </tr>
+    <tr>
+      <td>Anatomy for Runners</td>
+      <td>Jay Dicharry</td>
+      <td>2012</td>
+      <td>2021-03-22</td>
+      <td>anatomy,running,sports science,fitness</td>
+    </tr>
+    <tr>
+      <td>The God Delusion</td>
+      <td>Richard Dawkins</td>
+      <td>2006</td>
+      <td>2021-03-30</td>
+      <td>religion,christianity,islam,atheism</td>
+    </tr>
+    <tr>
+      <td>The Closing of the Western Mind: The Rise of Faith and the Fall of Reason</td>
+      <td>Charles Freeman</td>
+      <td>2003</td>
+      <td>2021-04-19</td>
+      <td>history,religion,christianity</td>
+    </tr>
+    <tr>
+      <td>The Coddling of the American Mind</td>
+      <td>Greg Lukianoff, Jonathan Haidt</td>
+      <td>2018</td>
+      <td>2021-05-06</td>
+      <td>psychology,education,parenting,culture</td>
+    </tr>
+    <tr>
+      <td>The Body</td>
+      <td>Bill Bryson</td>
+      <td>2019</td>
+      <td>2021-05-27</td>
+      <td>anatomy,biology</td>
+    </tr>
+    <tr>
+      <td>The Brain</td>
+      <td>David Eagleman</td>
+      <td>2017</td>
+      <td>2021-06-27</td>
+      <td>neuroscience,biology</td>
+    </tr>
+    <tr>
+      <td>Born to Run</td>
+      <td>Christopher McDougall</td>
+      <td>2009</td>
+      <td>2021-07-26</td>
+      <td>running,tarahumara,ultramarathon</td>
+    </tr>
+    <tr>
+      <td>The Cool Impossible</td>
+      <td>Eric Orton</td>
+      <td>2014</td>
+      <td>2021-08-08</td>
+      <td>running,ultramarathon</td>
+    </tr>
+    <tr>
+      <td>Mike and Psmith</td>
+      <td>P.G. Wodehouse</td>
+      <td>1953</td>
+      <td>2021-10-26</td>
+      <td>comic,fiction</td>
+    </tr>
+    <tr>
+      <td>Eat &amp; Run</td>
+      <td>Scott Jurek</td>
+      <td>2013</td>
+      <td>2021-11-20</td>
+      <td>running,nutrition,ultramarathon</td>
+    </tr>
+    <tr>
+      <td>The Moral Landscape</td>
+      <td>Sam Harris</td>
+      <td>2011</td>
+      <td>2021-11-21</td>
+      <td>ethics,philosophy,religion</td>
+    </tr>
+    <tr>
+      <td>Nine Nasty Words</td>
+      <td>John McWhorter</td>
+      <td>2021</td>
+      <td>2022-02-11</td>
+      <td>linguistics</td>
+    </tr>
+    <tr>
+      <td>The Greatest Show on Earth</td>
+      <td>Richard Dawkins</td>
+      <td>2009</td>
+      <td>2022-03-01</td>
+      <td>evolutionary biology,biology,science</td>
+    </tr>
+    <tr>
+      <td>The Secular Enlightenment</td>
+      <td>Margaret C. Jacob</td>
+      <td>2019</td>
+      <td>2022-03-17</td>
+      <td>enlightenment,history</td>
+    </tr>
+    <tr>
+      <td>The Odyssey</td>
+      <td>Homer, tr. Emily Wilson</td>
+      <td>2018</td>
+      <td>2022-03-17</td>
+      <td>greek mythology,epic</td>
+    </tr>
+    <tr>
+      <td>The Big Picture</td>
+      <td>Sean Carroll</td>
+      <td>2017</td>
+      <td>2022-04-03</td>
+      <td>physics,science</td>
+    </tr>
+    <tr>
+      <td>Free Will</td>
+      <td>Sam Harris</td>
+      <td>2012</td>
+      <td>2022-04-04</td>
+      <td>philosophy,free will,neuroscience</td>
+    </tr>
+    <tr>
+      <td>Waiting for the Barbarians</td>
+      <td>J. M. Coetzee</td>
+      <td>1980</td>
+      <td>2022-04-07</td>
+      <td>fiction,south africa,colonialism</td>
+    </tr>
+    <tr>
+      <td>The Third Chimpanzee</td>
+      <td>Jared Diamond</td>
+      <td>1991</td>
+      <td>2022-04-13</td>
+      <td>anthropology,culture</td>
+    </tr>
+    <tr>
+      <td>Rationality</td>
+      <td>Steven Pinker</td>
+      <td>2021</td>
+      <td>2022-04-19</td>
+      <td>reason,statistics,psychology</td>
+    </tr>
+    <tr>
+      <td>Enlightenment Now</td>
+      <td>Steven Pinker</td>
+      <td>2018</td>
+      <td>2022-04-24</td>
+      <td>history,science,psychology</td>
+    </tr>
+    <tr>
+      <td>The Constitution of Knowledge</td>
+      <td>Jonathan Rauch</td>
+      <td>2021</td>
+      <td>2022-04-26</td>
+      <td>culture,philosophy</td>
+    </tr>
+    <tr>
+      <td>On Color</td>
+      <td>David Scott Kastan</td>
+      <td>2018</td>
+      <td>2022-04-29</td>
+      <td>color</td>
+    </tr>
+    <tr>
+      <td>The Beginning of Infinity</td>
+      <td>David Deutsch</td>
+      <td>2011</td>
+      <td>2022-05-09</td>
+      <td>physics,science,philosophy,artificial intelligence</td>
+    </tr>
+    <tr>
+      <td>Incognito: The Secret Lives of the Brain</td>
+      <td>David Eagleman</td>
+      <td>2011</td>
+      <td>2022-05-18</td>
+      <td>neuroscience,cognitive psychology,biology</td>
+    </tr>
+    <tr>
+      <td>Hitch-22</td>
+      <td>Christopher Hitchens</td>
+      <td>2011</td>
+      <td>2022-05-30</td>
+      <td>autobiography</td>
+    </tr>
+    <tr>
+      <td>Just Six Numbers</td>
+      <td>Martin Rees</td>
+      <td>2001</td>
+      <td>2022-06-04</td>
+      <td>physics,science,cosmology,astrophysics</td>
+    </tr>
+    <tr>
+      <td>The Grand Design</td>
+      <td>Stephen Hawking</td>
+      <td>2010</td>
+      <td>2022-06-26</td>
+      <td>physics,cosmology,astrophysics</td>
+    </tr>
+    <tr>
+      <td>If Then</td>
+      <td>Jill Lepore</td>
+      <td>2020</td>
+      <td>2022-07-07</td>
+      <td>data,computing,analytics</td>
+    </tr>
+    <tr>
+      <td>Klara and the Sun</td>
+      <td>Kazuo Ishiguro</td>
+      <td>2021</td>
+      <td>2022-07-17</td>
+      <td>artificial intelligence,fiction,science fiction</td>
+    </tr>
+    <tr>
+      <td>Time’s Arrow</td>
+      <td>Martin Amis</td>
+      <td>1991</td>
+      <td>2022-07-21</td>
+      <td>fiction,time,nazism,holocaust,historical fiction</td>
+    </tr>
+    <tr>
+      <td>Factfulness</td>
+      <td>Hans Rosling</td>
+      <td>2018</td>
+      <td>2022-07-23</td>
+      <td>reason,statistics</td>
+    </tr>
+    <tr>
+      <td>The Elegant Universe</td>
+      <td>Brian Greene</td>
+      <td>1999</td>
+      <td>2022-07-24</td>
+      <td>physics,string theory,science</td>
+    </tr>
+    <tr>
+      <td>Blood Meridian</td>
+      <td>Cormac McCarthy</td>
+      <td>1985</td>
+      <td>2022-07-25</td>
+      <td>fiction,western</td>
+    </tr>
+    <tr>
+      <td>Indelible City</td>
+      <td>Louisa Lim</td>
+      <td>2022</td>
+      <td>2022-07-30</td>
+      <td>hong kong,history</td>
+    </tr>
+    <tr>
+      <td>Why Evolution Is True</td>
+      <td>Jerry Coyne</td>
+      <td>2010</td>
+      <td>2022-08-01</td>
+      <td>evolutionary biology</td>
+    </tr>
+    <tr>
+      <td>The Selfish Gene 2016 (40th Anniversary Ed.)</td>
+      <td>Richard Dawkins</td>
+      <td>1979</td>
+      <td>2022-08-07</td>
+      <td>evolutionary biology,genetics</td>
+    </tr>
+    <tr>
+      <td>Seize The Day</td>
+      <td>Saul Bellow</td>
+      <td>1956</td>
+      <td>2022-08-08</td>
+      <td>fiction</td>
+    </tr>
+    <tr>
+      <td>God Is Not Great</td>
+      <td>Christopher Hitchens</td>
+      <td>2007</td>
+      <td>2022-08-12</td>
+      <td>religion,christianity,atheism</td>
+    </tr>
+    <tr>
+      <td>The Rational Optimist</td>
+      <td>Matt Ridley</td>
+      <td>2010</td>
+      <td>2022-08-14</td>
+      <td>reason,economics</td>
+    </tr>
+    <tr>
+      <td>Pnin</td>
+      <td>Vladimir Nabokov</td>
+      <td>1957</td>
+      <td>2022-08-14</td>
+      <td>fiction</td>
+    </tr>
+    <tr>
+      <td>Homo Deus</td>
+      <td>Yuval Noah Hariri</td>
+      <td>2016</td>
+      <td>2022-08-30</td>
+      <td>artificial intelligence,agi</td>
+    </tr>
+    <tr>
+      <td>Life 3.0</td>
+      <td>Mark Tegmark</td>
+      <td>2018</td>
+      <td>2022-09-06</td>
+      <td>artificial intelligence,agi</td>
+    </tr>
+    <tr>
+      <td>The Cement Garden</td>
+      <td>Ian McEwan</td>
+      <td>1978</td>
+      <td>2022-09-11</td>
+      <td>fiction</td>
+    </tr>
+    <tr>
+      <td>Artificial Intelligence: A Guide for Thinking Humans</td>
+      <td>Melanie Mitchell</td>
+      <td>2019</td>
+      <td>2022-09-14</td>
+      <td>artificial intelligence</td>
+    </tr>
+    <tr>
+      <td>The War On The West</td>
+      <td>Douglas Murray</td>
+      <td>2022</td>
+      <td>2022-09-17</td>
+      <td>culture</td>
+    </tr>
+    <tr>
+      <td>Kinds of Minds</td>
+      <td>Daniel C. Dennett</td>
+      <td>2019</td>
+      <td>2022-09-20</td>
+      <td>consciousness,philosophy</td>
+    </tr>
+    <tr>
+      <td>The River of Consciousness</td>
+      <td>Oliver Sacks</td>
+      <td>2017</td>
+      <td>2022-09-22</td>
+      <td>consciousness,neuroscience</td>
+    </tr>
+    <tr>
+      <td>The Strange Order of Things</td>
+      <td>Antonio Damasio</td>
+      <td>2018</td>
+      <td>2022-09-27</td>
+      <td>neuroscience,time</td>
+    </tr>
+    <tr>
+      <td>Superintelligence</td>
+      <td>Nick Bostrom</td>
+      <td>2014</td>
+      <td>2022-10-01</td>
+      <td>artificial intelligence,agi</td>
+    </tr>
+    <tr>
+      <td>Unveiled</td>
+      <td>Yasmine Mohammed</td>
+      <td>2019</td>
+      <td>2022-10-03</td>
+      <td>islam,religion</td>
+    </tr>
+    <tr>
+      <td>The End of Faith</td>
+      <td>Sam Harris</td>
+      <td>2004</td>
+      <td>2022-10-12</td>
+      <td>religion,islam,christianity,atheism</td>
+    </tr>
+    <tr>
+      <td>Shame</td>
+      <td>Salman Rushdie</td>
+      <td>1983</td>
+      <td>2022-11-04</td>
+      <td>fiction</td>
+    </tr>
+    <tr>
+      <td>Conscious</td>
+      <td>Annaka Harris</td>
+      <td>2019</td>
+      <td>2022-11-06</td>
+      <td>consciousness,philosophy,neuroscience</td>
+    </tr>
+    <tr>
+      <td>Lying</td>
+      <td>Sam Harris</td>
+      <td>2013</td>
+      <td>2022-11-27</td>
+      <td>philosophy,ethics</td>
+    </tr>
+    <tr>
+      <td>Endurance: Shackleton's Incredible Voyage</td>
+      <td>Alfred Lansing</td>
+      <td>1999</td>
+      <td>2022-12-01</td>
+      <td>biography,explorer</td>
+    </tr>
+    <tr>
+      <td>The War Poets</td>
+      <td>Robert Giddings</td>
+      <td>1988</td>
+      <td>2022-12-16</td>
+      <td>poetry,world war i</td>
+    </tr>
+    <tr>
+      <td>Einstein: His Life and Universe</td>
+      <td>Walter Isaacson</td>
+      <td>2007</td>
+      <td>2022-12-27</td>
+      <td>biography,physics,relativity,quantum mechanics</td>
+    </tr>
+    <tr>
+      <td>Tales from Both Sides of the Brain</td>
+      <td>Michael S. Gazzaniga</td>
+      <td>2015</td>
+      <td>2023-01-14</td>
+      <td>neuroscience,biology,autobiography,cognitive psychology</td>
+    </tr>
+    <tr>
+      <td>The Pope and Mussolini</td>
+      <td>David Kertzer</td>
+      <td>2015</td>
+      <td>2023-02-01</td>
+      <td>history,world war ii,fascism,catholicism</td>
+    </tr>
+    <tr>
+      <td>The Revolutionary: Samuel Adams</td>
+      <td>Stacy Schiff</td>
+      <td>2022</td>
+      <td>2023-02-14</td>
+      <td>american revolution,history</td>
+    </tr>
+    <tr>
+      <td>Rebooting AI</td>
+      <td>Gary Marcus &amp; Ernest Davis</td>
+      <td>2020</td>
+      <td>2023-03-10</td>
+      <td>artificial intelligence</td>
+    </tr>
+    <tr>
+      <td>Human: The Science Behind What Makes Us Unique</td>
+      <td>Michael S. Gazzaniga</td>
+      <td>2008</td>
+      <td>2023-03-17</td>
+      <td>neuroscience,cognitive psychology,biology</td>
+    </tr>
+    <tr>
+      <td>Seven Brief Lessons on Physics</td>
+      <td>Carlo Rovelli</td>
+      <td>2016</td>
+      <td>2023-03-28</td>
+      <td>physics</td>
+    </tr>
+    <tr>
+      <td>Something Deeply Hidden</td>
+      <td>Sean Carroll</td>
+      <td>2019</td>
+      <td>2023-03-30</td>
+      <td>physics,quantum mechanics</td>
+    </tr>
+    <tr>
+      <td>Helgoland</td>
+      <td>Carlo Rovelli</td>
+      <td>2021</td>
+      <td>2023-04-06</td>
+      <td>physics,quantum mechanics</td>
+    </tr>
+    <tr>
+      <td>The Order of Time</td>
+      <td>Carlo Rovelli</td>
+      <td>2018</td>
+      <td>2023-04-12</td>
+      <td>physics,time</td>
+    </tr>
+    <tr>
+      <td>A Brief History of Time</td>
+      <td>Stephen Hawking</td>
+      <td>1988</td>
+      <td>2023-05-03</td>
+      <td>physics</td>
+    </tr>
+    <tr>
+      <td>The Biggest Ideas in the Universe</td>
+      <td>Sean Carroll</td>
+      <td>2022</td>
+      <td>2023-05-04</td>
+      <td>physics,quantum mechanics,relativity</td>
+    </tr>
+    <tr>
+      <td>Kissinger</td>
+      <td>Walter Isaacson</td>
+      <td>2005</td>
+      <td>2023-06-10</td>
+      <td>biography,politics</td>
+    </tr>
+    <tr>
+      <td>The Gene’s-Eye View of Evolution</td>
+      <td>J. Arvid Ågren</td>
+      <td>2021</td>
+      <td>2023-08-12</td>
+      <td>evolutionary biology,genetics</td>
+    </tr>
+    <tr>
+      <td>The Inimitable Jeeves</td>
+      <td>P. G. Wodehouse</td>
+      <td>1923</td>
+      <td>2023-08-15</td>
+      <td>comic,wodehouse</td>
+    </tr>
+    <tr>
+      <td>Thomas Jefferson and the Tripoli Pirates</td>
+      <td>Brian Kilmeade</td>
+      <td>2016</td>
+      <td>2023-08-17</td>
+      <td>biography,history,american history,islam</td>
+    </tr>
+    <tr>
+      <td>The Triple Helix: Gene, Organism, and Environment</td>
+      <td>Richard Lewontin</td>
+      <td>2000</td>
+      <td>2023-09-04</td>
+      <td>evolutionary biology,genetics</td>
+    </tr>
+    <tr>
+      <td>Science in the Soul</td>
+      <td>Richard Dawkins</td>
+      <td>2017</td>
+      <td>2023-10-03</td>
+      <td>essays,evolutionary biology</td>
+    </tr>
+    <tr>
+      <td>Carry On, Jeeves</td>
+      <td>P. G. Wodehouse</td>
+      <td>1925</td>
+      <td>2023-10-15</td>
+      <td>fiction,comic</td>
+    </tr>
+    <tr>
+      <td>Circe</td>
+      <td>Madeleine Miller</td>
+      <td>2018</td>
+      <td>2023-10-24</td>
+      <td>fiction,greek mythology</td>
+    </tr>
+    <tr>
+      <td>Feelings and Knowing</td>
+      <td>Antonio Damasio</td>
+      <td>2021</td>
+      <td>2023-10-27</td>
+      <td>neuroscience,biology</td>
+    </tr>
+    <tr>
+      <td>Irreversible Damage</td>
+      <td>Abigail Shrier</td>
+      <td>2020</td>
+      <td>2023-11-07</td>
+      <td>trans rights,gender</td>
+    </tr>
+    <tr>
+      <td>Behave</td>
+      <td>Robert Sapolsky</td>
+      <td>2017</td>
+      <td>2023-11-13</td>
+      <td>neuroscience,biology,psychology,endocrinology</td>
+    </tr>
+    <tr>
+      <td>If on a winters night a traveler</td>
+      <td>Italo Calvino</td>
+      <td>1979</td>
+      <td>2023-11-18</td>
+      <td>fiction</td>
+    </tr>
+    <tr>
+      <td>The Magic of Reality</td>
+      <td>Richard Dawkins</td>
+      <td>2011</td>
+      <td>2023-11-28</td>
+      <td>evolutionary biology,mythology,creation myths</td>
+    </tr>
+    <tr>
+      <td>Elbow Room</td>
+      <td>Daniel C. Dennett</td>
+      <td>1984</td>
+      <td>2023-11-30</td>
+      <td>philosophy,free will</td>
+    </tr>
+    <tr>
+      <td>The Passenger</td>
+      <td>Cormac McCarthy</td>
+      <td>2022</td>
+      <td>2023-12-26</td>
+      <td>fiction</td>
+    </tr>
+    <tr>
+      <td>Consciousness Explained</td>
+      <td>Daniel Dennett</td>
+      <td>1992</td>
+      <td>2023-12-31</td>
+      <td>consciousness,philosophy,neuroscience</td>
+    </tr>
+    <tr>
+      <td>Brief Candle in the Dark</td>
+      <td>Richard Dawkins</td>
+      <td>2015</td>
+      <td>2024-01-25</td>
+      <td>essays,evolutionary biology</td>
+    </tr>
+    <tr>
+      <td>Jesus and John Wayne: How White Evangelicals Corrupted a Faith and Fractured a Nation</td>
+      <td>Kristin Kobes Du Mez</td>
+      <td>2020</td>
+      <td>2024-02-08</td>
+      <td>religion,christianity,evangelical</td>
+    </tr>
+    <tr>
+      <td>Heroes: Mortals and Monsters, Quests and Adventures</td>
+      <td>Stephen Fry</td>
+      <td>2018</td>
+      <td>2024-02-15</td>
+      <td>greek mythology</td>
+    </tr>
+    <tr>
+      <td>Not In Our Genes</td>
+      <td>R. C. Lewontin, Steven Rose, Leon J. Kamin</td>
+      <td>1984</td>
+      <td>2024-02-20</td>
+      <td>evolutionary biology,genetics</td>
+    </tr>
+    <tr>
+      <td>Lucky Jim</td>
+      <td>Kingsley Amis</td>
+      <td>1954</td>
+      <td>2024-02-26</td>
+      <td>fiction,comic</td>
+    </tr>
+    <tr>
+      <td>Sentience: The Invention of Consciousness</td>
+      <td>Nicholas Humphrey</td>
+      <td>2023</td>
+      <td>2024-02-29</td>
+      <td>artificial intelligence,neuroscience,consciousness</td>
+    </tr>
+    <tr>
+      <td>Subliminal: How Your Unconscious Mind Rules Your Behavior</td>
+      <td>Leonard Mlodinow</td>
+      <td>2012</td>
+      <td>2024-03-07</td>
+      <td>neuroscience,psychology</td>
+    </tr>
+    <tr>
+      <td>Quantum Man: Richard Feynman's Life in Science</td>
+      <td>Lawrence M. Krauss</td>
+      <td>2011</td>
+      <td>2024-03-21</td>
+      <td>quantum mechanics,qed,biography,physics</td>
+    </tr>
+    <tr>
+      <td>Genius: The Life and Science of Richard Feynman</td>
+      <td>James Gleick</td>
+      <td>1993</td>
+      <td>2024-04-14</td>
+      <td>quantum mechanics,qed,biography,physics</td>
+    </tr>
+    <tr>
+      <td>Lessons</td>
+      <td>Ian McEwan</td>
+      <td>2022</td>
+      <td>NaN</td>
+      <td>fiction</td>
+    </tr>
+    <tr>
+      <td>A Thousand Brains: A New Theory of Intelligence</td>
+      <td>Jeff Hawkins</td>
+      <td>2021</td>
+      <td>NaN</td>
+      <td>neuroscience,artificial intelligence</td>
+    </tr>
+    <tr>
+      <td>The Alignment Problem</td>
+      <td>Brian Christian</td>
+      <td>2020</td>
+      <td>NaN</td>
+      <td>artificial intelligence</td>
+    </tr>
+    <tr>
+      <td>The Conscious Mind</td>
+      <td>David J. Chalmers</td>
+      <td>1997</td>
+      <td>NaN</td>
+      <td>consciousness,philosophy</td>
+    </tr>
+    <tr>
+      <td>Intuition Pumps and Other Tools for Thinking</td>
+      <td>Daniel C. Dennett</td>
+      <td>2014</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>God: The Most Unpleasant Character in All Fiction</td>
+      <td>Dan Barker</td>
+      <td>2016</td>
+      <td>NaN</td>
+      <td>christianity,religion,bible</td>
+    </tr>
+    <tr>
+      <td>Johann Sebastian Bach</td>
+      <td>Christoph Wolff</td>
+      <td>2001</td>
+      <td>NaN</td>
+      <td>music,biography,bach,baroque</td>
+    </tr>
+    <tr>
+      <td>A History of Christianity: The First Three Thousand Years</td>
+      <td>Diarmaid MacCulloch</td>
+      <td>2009</td>
+      <td>NaN</td>
+      <td>christianity,religion,history,catholicism,judaism</td>
+    </tr>
+    <tr>
+      <td>Determined</td>
+      <td>Robert M. Sapolsky</td>
+      <td>2023</td>
+      <td>NaN</td>
+      <td>neuroscience,philosophy,free will,biology</td>
+    </tr>
+    <tr>
+      <td>Johann Sebastian Bach: The Learned Musician</td>
+      <td>Christoph Wolff</td>
+      <td>2001</td>
+      <td>NaN</td>
+      <td>music,bach,baroque,biography</td>
+    </tr>
+  </tbody>
+</table>
+
+</font>
+</body>
+</html>
