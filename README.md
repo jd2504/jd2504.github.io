@@ -1,5 +1,9 @@
 # jd2504.github.io
 
-## What I'm reading
+## reading
 
 [Reading log](https://jd2504.github.io/lego/read.html)
+
+## writing
+
+[GPTs and other gollems](https://jd2504.github.io/exaro/harris_gollems.txt)
