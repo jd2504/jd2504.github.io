@@ -1,3 +1,47 @@
-# Not In Our Genes: Biology, Ideology, and Human Nature
-# R.C. Lewontin, Steven Rose, and Leon J. Kamin (1984)
+Not In Our Genes: Biology, Ideology, and Human Nature
+R.C. Lewontin, Steven Rose, and Leon J. Kamin (1984)
 
+
+
+Of the books that have had the effect of shifting my way of thinking about a subject, Dawkins' The Selfish Gene might be a candidate for greatest number of personal subsequent pick-ups. Or maybe more accurate to say so of his work overall, to include The Extended Phenotype, The Ancestor's Tale, and various essays. The genes that consitute my genome come together to put 'me' together as a cohesive unit--well, at least that's how it feels to me, and I think it safe to assume, dear reader, you as well. It happens that I carry a particular allele associated with elevated likelihood of contracting, among other things, uveitis, a painful auto-immune condition that causes inflammation of the uvea--it's the part of the eye that includes the iris--and the feeling of having an eye cramp that can only be stretched with steroid drops. This discrete slice of my genome carries with it peculiar instructions that happen to work against its host: me. Uveitis is thankfully nowhere close to life threatening. And carriers of this genetic marker have not only been successful enough in procreating that not only do I exist and have children of my own, but almost ten percent of caucasian and Chinese are also carriers. But if it were life threatening, it would be a prime example of a gene that reduced my likelihood of surviving long enough to procreate, working along with the rest of creation to cull the genetic pool of bad genes like mine, i.e. natural selection. Other more well known mutations are of the BRCA1 and BRCA2 genes. These genes that are otherwise responsible for repairing DNA, at some point in the past, mutated and, in carriers of this offensive mutation, ceased to effectively treat damaged DNA and, as a consequence, increased risk of breast cancer.
+
+The genetic information that each gene and allele carry do not determine outcomes on their own. My chance of suffering from uveitis can be expressed as a probability--as well as any of a host of other afflictions that, at some point, I may or may not find myself complaining of. And this is the point. The probabilities that describe my specific and possible ailments depend on legions of environmental factors, too many to be enumerated and usually too complex to understand but in total. These factors include temperature, stress, diet, humidity, exposure to sunlight, upbringing and parental nurture, the rest of the fifty percent of each of my parents' genomes that I happened to randomly inherit, and many many more. A helpful analogy--and one that I believe Dawkins has also made--is of a computer program. If I were to write a piece of software that takes some text as input, the output will depend on both the steps specified in the program as well as the data provided to the software. What this means is that if I were to feed the same text file through different programs, the outputs would differ to the extent that the steps cause the transformations to diverge. On the other hand, if I were to feed different files into the same program, the outputs would differ to the extent that the data fed into the program differs, but the same types of transformations would be performed on each dataset. It's also important to point out that computers provide insulated environments that look nothing like the complex web of interrelated factors that affect and contribute to the environment in which we live. But whether or not we can successfully appreciate the environmental factors that contribute to what amounts to our inputs, we can express outcomes as probability distributions specified by genetic markers.
+
+Rather than the analogy of computer programs, Lewontin, et al. (pg. 11) use the analogy of a recipe:
+
+   Think, for example, of the baking of a cake: the taste of the product is the result of
+   a complex interaction of components-such as butter, sugar, and four-exposed for various
+   periods to elevated temperatures; it is not dissociable into such-or-such a percent of
+   flour, such-or-such of butter, etc., although each and every component (and their
+   development over time at a raised temperature) has its contribution to make to the final
+   product. In a world in which such complex developmental interactions are always occurring,
+   history becomes of paramount importance. Where and how an organism is now is not merely
+   dependent upon its composition at this time but upon a past that imposes contingencies on
+   the present and future interaction of its components.
+
+Exposure to specific periods of elevated temperatures yields specific outcomes when applied to specific ingredients. The effect of environment (temperature) on those ingredients has a predictable range of payoffs--all of which happily look more or less like a cake, if you're following the recipe closely. The discrete range of possible outcomes given certain ingredients may also have overlapping or similar outcomes to a combination of different ingredients (e.g. imitation beef).
+
+Problems arise when the probability density function with respect to some genetic variants under some random environmental factors tends to favor carriers of one allele over another, yielding, on average, unequal outcomes. This is precisely the evolutionary dance that has been going on between lions and antelopes for millenia. But in other cases, the probability of successful procreation is not jeapordized by unequal outcomes on some dimension. Sex is an example of this, where, on average, mammalian males tend to be taller and stronger than their female counterparts. The present evolutionary outcomes in terms of mammalian sexual differences do not come with values (or oughts), but do help to explain environmental pressures placed on our ancestors that led to specifics that resulted in greater numbers of offspring and dominance in the gene pool.
+
+
+
+
+
+
+
+It was somewhat surprising to read charges of genetic determinism leveled against Dawkins and 
+
+But whether or not we can understand the elements of our environment does not change the fact of 
+
+Given similar inputs or environmental factors imposed on the same genetic instructions, the instructions will arrive at similar outcomes. But given different circumstances, upbringing, parental nurture, etc., outcomes will likewise differ.
+
+
+
+And people who carry similar and variants would, on average, be less successful
+
+
+I learned to think about evolution as a process 
+
+So it was somewhat surprising to hear the charge of genetic determinism 
+
+help us better understand the potential dangers of accepting biological fact as value-laden. Neither the fact of female spiders devouring their mate, 
