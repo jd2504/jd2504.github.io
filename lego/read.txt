@@ -1,4 +1,4 @@
-readid|title|published|author|format|read|keywords|writeup
+readid|title|published|author|format|read|keywords
 aa001|Endure: Mind, Body, and the Curiously Elastic Limits of Human Performance|2018|Alex Hutchinson|Kindle|2021-01-01|running,endurance,sports science,psychology,fitness,biology
 aa002|What I talk about when I talk about running|2009|Haruki Murakami|Kindle|2021-01-14|running,short stories
 aa003|The Three-Body Problem|2014|Cixin Liu|Kindle|2021-01-20|science fiction,physics,fiction,china
@@ -92,7 +92,7 @@ aa090|Consciousness Explained|1992|Daniel Dennett|paperback|2023-12-31|conscious
 aa091|Brief Candle in the Dark|2015|Richard Dawkins|Libby|2024-01-25|essays,evolutionary biology
 aa092|Jesus and John Wayne: How White Evangelicals Corrupted a Faith and Fractured a Nation|2020|Kristin Kobes Du Mez|Libby|2024-02-08|religion,christianity,evangelical
 aa093|Heroes: Mortals and Monsters, Quests and Adventures|2018|Stephen Fry|Libby|2024-02-15|greek mythology
-aa094|Not In Our Genes|1984|R. C. Lewontin, Steven Rose, Leon J. Kamin|hardback|2024-02-20|evolutionary biology,genetics|yes
+aa094|Not In Our Genes|1984|R. C. Lewontin, Steven Rose, Leon J. Kamin|hardback|2024-02-20|evolutionary biology,genetics
 aa096|Lucky Jim|1954|Kingsley Amis|paperback|2024-02-26|fiction,comic
 aa095|Sentience: The Invention of Consciousness|2023|Nicholas Humphrey|Libby|2024-02-29|artificial intelligence,neuroscience,consciousness
 aa102|Subliminal: How Your Unconscious Mind Rules Your Behavior|2012|Leonard Mlodinow|paperback|2024-03-07|neuroscience,psychology
