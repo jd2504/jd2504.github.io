@@ -5,7 +5,7 @@
 
 ## writing
 
-[Thoughts on Not In Out Genes, Lewontin, Kamin, and Rose, 1984](https://jd2504.github.io/lego/aa094.txt) [2024-04-23]
+[Thoughts on Not In Out Genes, Lewontin, Kamin, and Rose, 1984](https://jd2504.github.io/lego/aa094.txt) [2024-02-20]
 
 [GPTs and other gollems](https://jd2504.github.io/exaro/harris_gollems.txt) [2023-12-04]
 

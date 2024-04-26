@@ -98,7 +98,7 @@ aa095|Sentience: The Invention of Consciousness|2023|Nicholas Humphrey|Libby|202
 aa102|Subliminal: How Your Unconscious Mind Rules Your Behavior|2012|Leonard Mlodinow|paperback|2024-03-07|neuroscience,psychology
 aa103|Quantum Man: Richard Feynman's Life in Science|2011|Lawrence M. Krauss|Libby|2024-03-21|quantum mechanics,qed,biography,physics
 aa104|Genius: The Life and Science of Richard Feynman|1993|James Gleick|Libby|2024-04-14|quantum mechanics,qed,biography,physics
-aa098|A Thousand Brains: A New Theory of Intelligence|2021|Jeff Hawkins|hardback||neuroscience,artificial intelligence
+aa098|A Thousand Brains: A New Theory of Intelligence|2021|Jeff Hawkins|hardback|2024-04-25|neuroscience,artificial intelligence
 aa106|Johann Sebastian Bach|2001|Christoph Wolff|Libby||music,biography,bach,baroque
 aa105|Lessons|2022|Ian McEwan|hardcover||fiction
 aa100|The Alignment Problem|2020|Brian Christian|paperback||artificial intelligence
