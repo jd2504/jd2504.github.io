@@ -1,4 +1,6 @@
 title|published|author|format
-Benjamin Franklin: An American Life|2004|Walter Isaacson|hardcover
+Reality+: Virtual Worlds and the Problems of Philosophy|2022|David J. Chalmers|hardcover
 In Search of Memory: The Emergence of a New Science of Mind|2007|Eric R. Kandel|paperback
+Benjamin Franklin: An American Life|2004|Walter Isaacson|hardcover
 Thomas Jefferson: The Art of Power|2013|Jon Meacham|hardcover
+

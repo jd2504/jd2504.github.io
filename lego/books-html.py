@@ -13,7 +13,7 @@ h_read_path = path + 'read.html'
 h_queue_path = path + 'read_queue.html'
 
 
-read_in = pd.read_csv(t_read_path, sep='|')
+read_in = pd.read_csv(t_read_path, sep='|').sort_values(by=['read'], ascending=False)
 
 read_html = read_in.to_html(
     table_id='readTxt',
