@@ -98,13 +98,13 @@ aa095|Sentience: The Invention of Consciousness|2023|Nicholas Humphrey|Libby|202
 aa102|Subliminal: How Your Unconscious Mind Rules Your Behavior|2012|Leonard Mlodinow|paperback|2024-03-07|neuroscience,psychology
 aa103|Quantum Man: Richard Feynman's Life in Science|2011|Lawrence M. Krauss|Libby|2024-03-21|quantum mechanics,qed,biography,physics
 aa104|Genius: The Life and Science of Richard Feynman|1993|James Gleick|Libby|2024-04-14|quantum mechanics,qed,biography,physics
-aa105|Lessons|2022|Ian McEwan|hardcover||fiction
 aa098|A Thousand Brains: A New Theory of Intelligence|2021|Jeff Hawkins|hardback||neuroscience,artificial intelligence
+aa106|Johann Sebastian Bach|2001|Christoph Wolff|Libby||music,biography,bach,baroque
+aa105|Lessons|2022|Ian McEwan|hardcover||fiction
 aa100|The Alignment Problem|2020|Brian Christian|paperback||artificial intelligence
 aa097|The Conscious Mind|1997|David J. Chalmers|paperback||consciousness,philosophy
-aa099|Intuition Pumps and Other Tools for Thinking|2014|Daniel C. Dennett|paperback||
+aa099|Intuition Pumps and Other Tools for Thinking|2014|Daniel C. Dennett|paperback||philosophy
 aa101|God: The Most Unpleasant Character in All Fiction|2016|Dan Barker|Libby||christianity,religion,bible
-aa106|Johann Sebastian Bach|2001|Christoph Wolff|Libby||music,biography,bach,baroque
 aa107|A History of Christianity: The First Three Thousand Years|2009|Diarmaid MacCulloch|paperback||christianity,religion,history,catholicism,judaism
 aa108|Determined|2023|Robert M. Sapolsky|hardback||neuroscience,philosophy,free will,biology
 aa109|Johann Sebastian Bach: The Learned Musician|2001|Christoph Wolff|Libby||music,bach,baroque,biography
