@@ -99,8 +99,9 @@ aa102|Subliminal: How Your Unconscious Mind Rules Your Behavior|2012|Leonard Mlo
 aa103|Quantum Man: Richard Feynman's Life in Science|2011|Lawrence M. Krauss|Libby|2024-03-21|quantum mechanics qed biography physics quantum electrodynamics
 aa104|Genius: The Life and Science of Richard Feynman|1993|James Gleick|Libby|2024-04-14|quantum mechanics qed biography physics quantum electrodynamics
 aa098|A Thousand Brains: A New Theory of Intelligence|2021|Jeff Hawkins|hardback|2024-04-25|neuroscience artificial intelligence
+aa106|Johann Sebastian Bach: The Learned Musician|2001|Christoph Wolff|Libby|2024-05-01|music bach baroque biography
+aa109|Six Impossible Things: The Mysteries of the Quantum World|2019|John Gribbin|Libby|2024-05-02|quantum physics theoretical physics
 aa097|The Conscious Mind|1997|David J. Chalmers|paperback||consciousness philosophy
-aa106|Johann Sebastian Bach: The Learned Musician|2001|Christoph Wolff|Libby||music bach baroque biography
 aa107|A History of Christianity: The First Three Thousand Years|2009|Diarmaid MacCulloch|paperback||christianity religion history catholicism judaism
 aa105|Lessons|2022|Ian McEwan|hardcover||fiction
 aa100|The Alignment Problem|2020|Brian Christian|paperback||artificial intelligence
