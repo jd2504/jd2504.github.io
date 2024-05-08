@@ -108,5 +108,5 @@ aa100|The Alignment Problem|2020|Brian Christian|paperback||artificial intellige
 aa099|Intuition Pumps and Other Tools for Thinking|2014|Daniel C. Dennett|paperback||philosophy
 aa101|God: The Most Unpleasant Character in All Fiction|2016|Dan Barker|Libby||christianity religion bible
 aa108|Determined|2023|Robert M. Sapolsky|hardback||neuroscience philosophy free will biology
-aa110|Touching a Nerve: The Self as Brain|2013|Patricia S. Churchland|Libby||philosophy neuroscience mind
+aa110|Touching a Nerve: The Self as Brain|2013|Patricia S. Churchland|Libby|2024-05-08|philosophy neuroscience mind
 aa111|Kitchen Confidential: Adventures in the Culinary Underbelly|2000|Anthony Bourdain|Libby||food restaurants culinary industry
