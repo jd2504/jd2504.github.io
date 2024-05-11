@@ -19,7 +19,7 @@ aa017|Nine Nasty Words|2021|John McWhorter|NLB Libby|2022-02-11|linguistics
 aa018|The Greatest Show on Earth|2009|Richard Dawkins|NLB Libby|2022-03-01|evolutionary biology science
 aa019|The Secular Enlightenment|2019|Margaret C. Jacob|NLB Libby|2022-03-17|enlightenment history
 aa020|The Odyssey|2018|Homer, tr. Emily Wilson|paperback|2022-03-17|greek mythology epic poetry
-aa021|The Big Picture|2017|Sean Carroll|NLB Libby|2022-04-03|physics science
+aa021|The Big Picture|2017|Sean Carroll|NLB Libby|2022-04-03|physics science cosmology
 aa022|Free Will|2012|Sam Harris|NLB Libby|2022-04-04|philosophy free will neuroscience
 aa023|Waiting for the Barbarians|1980|J. M. Coetzee|paperback|2022-04-07|fiction south africa colonialism
 aa024|The Third Chimpanzee|1991|Jared Diamond|NLB Libby|2022-04-13|anthropology culture
@@ -27,16 +27,16 @@ aa025|Rationality|2021|Steven Pinker|hardcover|2022-04-19|reason statistics psyc
 aa026|Enlightenment Now|2018|Steven Pinker|paperback|2022-04-24|history science psychology
 aa027|The Constitution of Knowledge|2021|Jonathan Rauch|NLB Libby|2022-04-26|culture philosophy
 aa028|On Color| 2018|David Scott Kastan|NLB Libby|2022-04-29|color
-aa029|The Beginning of Infinity|2011|David Deutsch|Kindle|2022-05-09|physics science philosophy artificial intelligence
+aa029|The Beginning of Infinity|2011|David Deutsch|Kindle|2022-05-09|physics science philosophy artificial intelligence cosmology
 aa030|Incognito: The Secret Lives of the Brain|2011|David Eagleman|NLB Libby|2022-05-18|neuroscience cognitive psychology biology
 aa031|Hitch-22|2011|Christopher Hitchens|NLB Libby|2022-05-30|autobiography
-aa032|Just Six Numbers|2001|Martin Rees|NLB Libby|2022-06-04|physics science cosmology astrophysics
+aa032|Just Six Numbers|2001|Martin Rees|NLB Libby|2022-06-04|physics science cosmology astrophysics cosmology
 aa033|The Grand Design|2010|Stephen Hawking|NLB Libby|2022-06-26|physics cosmology astrophysics
 aa034|If Then|2020|Jill Lepore|paperback|2022-07-07|data computing analytics
 aa035|Klara and the Sun|2021|Kazuo Ishiguro|paperback|2022-07-17|artificial intelligence fiction science fiction
 aa036|Time’s Arrow|1991|Martin Amis|paperback|2022-07-21|fiction time nazism holocaust historical fiction
 aa037|Factfulness|2018|Hans Rosling|paperback|2022-07-23|reason statistics
-aa038|The Elegant Universe|1999|Brian Greene|NLB Libby|2022-07-24|theoretical physics string theory science
+aa038|The Elegant Universe|1999|Brian Greene|NLB Libby|2022-07-24|theoretical physics string theory science cosmology
 aa039|Blood Meridian|1985|Cormac McCarthy|hardcover|2022-07-25|fiction western
 aa040|Indelible City|2022|Louisa Lim|paperback|2022-07-30|hong kong history
 aa041|Why Evolution Is True|2010|Jerry Coyne|paperback|2022-08-01|evolutionary biology
@@ -71,7 +71,7 @@ aa069|Seven Brief Lessons on Physics|2016|Carlo Rovelli|kindle|2023-03-28|physic
 aa070|Something Deeply Hidden|2019|Sean Carroll|Libby|2023-03-30|theoretical physics quantum mechanics
 aa071|Helgoland|2021|Carlo Rovelli|Libby|2023-04-06|theoretical physics quantum mechanics
 aa072|The Order of Time|2018|Carlo Rovelli|Libby|2023-04-12|theoretical physics time
-aa073|A Brief History of Time|1988|Stephen Hawking|Libby|2023-05-03|physics
+aa073|A Brief History of Time|1988|Stephen Hawking|Libby|2023-05-03|physics cosmology
 aa074|The Biggest Ideas in the Universe|2022|Sean Carroll|Libby|2023-05-04|physics quantum mechanics relativity
 aa075|Kissinger|2005|Walter Isaacson|Libby|2023-06-10|biography politics
 aa076|The Gene’s-Eye View of Evolution|2021|J. Arvid Ågren|hardcover|2023-08-12|evolutionary biology genetics
@@ -83,7 +83,7 @@ aa081|Carry On, Jeeves|1925|P. G. Wodehouse|paperback|2023-10-15|fiction comic
 aa082|Circe|2018|Madeleine Miller|Libby|2023-10-24|fiction greek mythology
 aa083|Feelings and Knowing|2021|Antonio Damasio|Libby|2023-10-27|neuroscience biology
 aa084|Irreversible Damage|2020|Abigail Shrier|Libby|2023-11-07|transgender
-aa085|Behave|2017|Robert Sapolsky|paperback|2023-11-13|neuroscience biology psychology endocrinology
+aa085|Behave|2017|Robert M. Sapolsky|paperback|2023-11-13|neuroscience biology psychology endocrinology
 aa086|If on a winters night a traveler|1979|Italo Calvino|paperback|2023-11-18|fiction
 aa087|The Magic of Reality|2011|Richard Dawkins|Libby|2023-11-28|evolutionary biology mythology creation myths
 aa088|Elbow Room|1984|Daniel C. Dennett|Libby|2023-11-30|philosophy free will
@@ -101,12 +101,13 @@ aa104|Genius: The Life and Science of Richard Feynman|1993|James Gleick|Libby|20
 aa098|A Thousand Brains: A New Theory of Intelligence|2021|Jeff Hawkins|hardback|2024-04-25|neuroscience artificial intelligence
 aa106|Johann Sebastian Bach: The Learned Musician|2001|Christoph Wolff|Libby|2024-05-01|music bach baroque biography
 aa109|Six Impossible Things: The Mysteries of the Quantum World|2019|John Gribbin|Libby|2024-05-02|quantum physics theoretical physics
+aa110|Touching a Nerve: The Self as Brain|2013|Patricia S. Churchland|Libby|2024-05-08|philosophy neuroscience mind
+aa111|Kitchen Confidential: Adventures in the Culinary Underbelly|2000|Anthony Bourdain|Libby|2024-05-11|food restaurants culinary industry
 aa097|The Conscious Mind|1997|David J. Chalmers|paperback||consciousness philosophy
-aa107|A History of Christianity: The First Three Thousand Years|2009|Diarmaid MacCulloch|paperback||christianity religion history catholicism judaism
+aa112|White Holes|2023|Carlo Rovelli|Libby||astrophysics cosmology
+aa107|A History of Christianity: The First Three Thousand Years|2009|Diarmaid MacCulloch|paperback||christianity religion history catholicism judaism islam
 aa105|Lessons|2022|Ian McEwan|hardcover||fiction
 aa100|The Alignment Problem|2020|Brian Christian|paperback||artificial intelligence
 aa099|Intuition Pumps and Other Tools for Thinking|2014|Daniel C. Dennett|paperback||philosophy
 aa101|God: The Most Unpleasant Character in All Fiction|2016|Dan Barker|Libby||christianity religion bible
-aa108|Determined|2023|Robert M. Sapolsky|hardback||neuroscience philosophy free will biology
-aa110|Touching a Nerve: The Self as Brain|2013|Patricia S. Churchland|Libby|2024-05-08|philosophy neuroscience mind
-aa111|Kitchen Confidential: Adventures in the Culinary Underbelly|2000|Anthony Bourdain|Libby||food restaurants culinary industry
+aa108|Determined|2023|Robert M. Sapolsky|hardback||determinism neuroscience free will philosophy biology
