@@ -102,9 +102,10 @@ aa098|A Thousand Brains: A New Theory of Intelligence|2021|Jeff Hawkins|hardback
 aa106|Johann Sebastian Bach: The Learned Musician|2001|Christoph Wolff|Libby|2024-05-01|music bach baroque biography
 aa109|Six Impossible Things: The Mysteries of the Quantum World|2019|John Gribbin|Libby|2024-05-02|quantum physics theoretical physics
 aa110|Touching a Nerve: The Self as Brain|2013|Patricia S. Churchland|Libby|2024-05-08|philosophy neuroscience mind
-aa111|Kitchen Confidential: Adventures in the Culinary Underbelly|2000|Anthony Bourdain|Libby|2024-05-11|food restaurants culinary industry
+aa111|Kitchen Confidential: Adventures in the Culinary Underbelly|2000|Anthony Bourdain|Libby|2024-05-11|food restaurants culinary industry autobiography
+aa112|White Holes|2023|Carlo Rovelli|Libby|2024-05-12|astrophysics cosmology
+aa113|Isaac Newton|2004|James Gleick|Libby||physics newtonian mechanics enlightenment biography
 aa097|The Conscious Mind|1997|David J. Chalmers|paperback||consciousness philosophy
-aa112|White Holes|2023|Carlo Rovelli|Libby||astrophysics cosmology
 aa107|A History of Christianity: The First Three Thousand Years|2009|Diarmaid MacCulloch|paperback||christianity religion history catholicism judaism islam
 aa105|Lessons|2022|Ian McEwan|hardcover||fiction
 aa100|The Alignment Problem|2020|Brian Christian|paperback||artificial intelligence
