@@ -2,13 +2,21 @@
 
 <html>
   <head>
-    <title>eBook of books</title>
+    <title>e-book of books</title>
   </head>
 
-  <input type="text" id="titleName" onkeyup="nameSearch()" placeholder="Search for title.." title="Type in a title">
-  <input type="text" id="authorName" onkeyup="authorSearch()" placeholder="Search for author.." title="Type in a author">
-  <input type="text" id="kwName" onkeyup="kwSearch()" placeholder="Search for keyword.." title="Type in a keyword">
-  <input type="text" id="readDate" onkeyup="readSearch()" placeholder="Type in a year.." title="Type in a date">
+  <input
+    type="text" id="titleName" onkeyup="nameSearch()"
+    placeholder="Search for title.." title="Type in a title">
+  <input
+    type="text" id="authorName" onkeyup="authorSearch()"
+    placeholder="Search for author.." title="Type in a author">
+  <input
+    type="text" id="kwName" onkeyup="kwSearch()"
+    placeholder="Search for keyword.." title="Type in a keyword">
+  <input
+    type="text" id="readDate" onkeyup="readSearch()"
+    placeholder="Type in a year.." title="Type in a date">
   
 
 
@@ -22,7 +30,7 @@
       table = document.getElementById("readTxt");
       tr = table.getElementsByTagName("tr");
       for (i = 0; i < tr.length; i++) {
-	td = tr[i].getElementsByTagName("td")[0];
+	td = tr[i].getElementsByTagName("td")[1];
 	if (td) {
 	  txtValue = td.textContent || td.innerText;
 	  if (txtValue.toUpperCase().indexOf(filter) > -1) {
@@ -41,7 +49,7 @@
       table = document.getElementById("readTxt");
       tr = table.getElementsByTagName("tr");
       for (i = 0; i < tr.length; i++) {
-	td = tr[i].getElementsByTagName("td")[1];
+	td = tr[i].getElementsByTagName("td")[2];
 	if (td) {
 	  txtValue = td.textContent || td.innerText;
 	  if (txtValue.toUpperCase().indexOf(filter) > -1) {
@@ -60,7 +68,7 @@
       table = document.getElementById("readTxt");
       tr = table.getElementsByTagName("tr");
       for (i = 0; i < tr.length; i++) {
-	td = tr[i].getElementsByTagName("td")[4];
+	td = tr[i].getElementsByTagName("td")[5];
 	if (td) {
 	  txtValue = td.textContent || td.innerText;
 	  if (txtValue.toUpperCase().indexOf(filter) > -1) {
@@ -79,7 +87,7 @@
       table = document.getElementById("readTxt");
       tr = table.getElementsByTagName("tr");
       for (i = 0; i < tr.length; i++) {
-	td = tr[i].getElementsByTagName("td")[3];
+	td = tr[i].getElementsByTagName("td")[4];
 	if (td) {
 	  txtValue = td.textContent || td.innerText;
 	  if (txtValue.toUpperCase().indexOf(filter) > -1) {
@@ -166,7 +174,9 @@
 
   <body>
     <font size="2" face="Arial" >
-    <h1>eBook of books</h1>
+      <h1>e-book of books</h1>
+
+      notes and log of what's come off the shelf, starting 2021...
 
     
 
@@ -175,6 +185,7 @@
 <table border="1" class="dataframe" id="readTxt">
   <thead>
     <tr style="text-align: left;">
+      <th>readid</th>
       <th onclick="sortTable(0)">title</th>
       <th onclick="sortTable(1)">author</th>
       <th onclick="sortTable(2)">published</th>
@@ -184,6 +195,15 @@
   </thead>
   <tbody>
     <tr>
+      <td>aa113</td>
+      <td>Isaac Newton</td>
+      <td>James Gleick</td>
+      <td>2004</td>
+      <td>2024-05-14</td>
+      <td>biography physics newtonian mechanics enlightenment</td>
+    </tr>
+    <tr>
+      <td>aa112</td>
       <td>White Holes</td>
       <td>Carlo Rovelli</td>
       <td>2023</td>
@@ -191,6 +211,7 @@
       <td>astrophysics cosmology</td>
     </tr>
     <tr>
+      <td>aa111</td>
       <td>Kitchen Confidential: Adventures in the Culinary Underbelly</td>
       <td>Anthony Bourdain</td>
       <td>2000</td>
@@ -198,6 +219,7 @@
       <td>food restaurants culinary industry autobiography</td>
     </tr>
     <tr>
+      <td>aa110</td>
       <td>Touching a Nerve: The Self as Brain</td>
       <td>Patricia S. Churchland</td>
       <td>2013</td>
@@ -205,6 +227,7 @@
       <td>philosophy neuroscience mind</td>
     </tr>
     <tr>
+      <td>aa109</td>
       <td>Six Impossible Things: The Mysteries of the Quantum World</td>
       <td>John Gribbin</td>
       <td>2019</td>
@@ -212,6 +235,7 @@
       <td>quantum physics theoretical physics</td>
     </tr>
     <tr>
+      <td>aa106</td>
       <td>Johann Sebastian Bach: The Learned Musician</td>
       <td>Christoph Wolff</td>
       <td>2001</td>
@@ -219,6 +243,7 @@
       <td>music bach baroque biography</td>
     </tr>
     <tr>
+      <td>aa098</td>
       <td>A Thousand Brains: A New Theory of Intelligence</td>
       <td>Jeff Hawkins</td>
       <td>2021</td>
@@ -226,6 +251,7 @@
       <td>neuroscience artificial intelligence</td>
     </tr>
     <tr>
+      <td>aa104</td>
       <td>Genius: The Life and Science of Richard Feynman</td>
       <td>James Gleick</td>
       <td>1993</td>
@@ -233,6 +259,7 @@
       <td>quantum mechanics qed biography physics quantum electrodynamics</td>
     </tr>
     <tr>
+      <td>aa103</td>
       <td>Quantum Man: Richard Feynman's Life in Science</td>
       <td>Lawrence M. Krauss</td>
       <td>2011</td>
@@ -240,6 +267,7 @@
       <td>quantum mechanics qed biography physics quantum electrodynamics</td>
     </tr>
     <tr>
+      <td>aa102</td>
       <td>Subliminal: How Your Unconscious Mind Rules Your Behavior</td>
       <td>Leonard Mlodinow</td>
       <td>2012</td>
@@ -247,6 +275,7 @@
       <td>neuroscience psychology</td>
     </tr>
     <tr>
+      <td>aa095</td>
       <td>Sentience: The Invention of Consciousness</td>
       <td>Nicholas Humphrey</td>
       <td>2023</td>
@@ -254,6 +283,7 @@
       <td>artificial intelligence neuroscience consciousness</td>
     </tr>
     <tr>
+      <td>aa096</td>
       <td>Lucky Jim</td>
       <td>Kingsley Amis</td>
       <td>1954</td>
@@ -261,6 +291,7 @@
       <td>fiction comic</td>
     </tr>
     <tr>
+      <td>aa094</td>
       <td>Not In Our Genes</td>
       <td>Richard C. Lewontin, Steven Rose, Leon J. Kamin</td>
       <td>1984</td>
@@ -268,6 +299,7 @@
       <td>evolutionary biology genetics</td>
     </tr>
     <tr>
+      <td>aa093</td>
       <td>Heroes: Mortals and Monsters, Quests and Adventures</td>
       <td>Stephen Fry</td>
       <td>2018</td>
@@ -275,6 +307,7 @@
       <td>greek mythology</td>
     </tr>
     <tr>
+      <td>aa092</td>
       <td>Jesus and John Wayne: How White Evangelicals Corrupted a Faith and Fractured a Nation</td>
       <td>Kristin Kobes Du Mez</td>
       <td>2020</td>
@@ -282,6 +315,7 @@
       <td>religion evangelical christianity</td>
     </tr>
     <tr>
+      <td>aa091</td>
       <td>Brief Candle in the Dark</td>
       <td>Richard Dawkins</td>
       <td>2015</td>
@@ -289,6 +323,7 @@
       <td>essays evolutionary biology</td>
     </tr>
     <tr>
+      <td>aa090</td>
       <td>Consciousness Explained</td>
       <td>Daniel Dennett</td>
       <td>1992</td>
@@ -296,6 +331,7 @@
       <td>consciousness philosophy neuroscience</td>
     </tr>
     <tr>
+      <td>aa089</td>
       <td>The Passenger</td>
       <td>Cormac McCarthy</td>
       <td>2022</td>
@@ -303,13 +339,15 @@
       <td>fiction</td>
     </tr>
     <tr>
+      <td>aa088</td>
       <td>Elbow Room</td>
       <td>Daniel C. Dennett</td>
       <td>1984</td>
       <td>2023-11-30</td>
-      <td>philosophy free will</td>
+      <td>philosophy free will compatibalism determinism</td>
     </tr>
     <tr>
+      <td>aa087</td>
       <td>The Magic of Reality</td>
       <td>Richard Dawkins</td>
       <td>2011</td>
@@ -317,6 +355,7 @@
       <td>evolutionary biology mythology creation myths</td>
     </tr>
     <tr>
+      <td>aa086</td>
       <td>If on a winters night a traveler</td>
       <td>Italo Calvino</td>
       <td>1979</td>
@@ -324,6 +363,7 @@
       <td>fiction</td>
     </tr>
     <tr>
+      <td>aa085</td>
       <td>Behave</td>
       <td>Robert M. Sapolsky</td>
       <td>2017</td>
@@ -331,6 +371,7 @@
       <td>neuroscience biology psychology endocrinology</td>
     </tr>
     <tr>
+      <td>aa084</td>
       <td>Irreversible Damage</td>
       <td>Abigail Shrier</td>
       <td>2020</td>
@@ -338,6 +379,7 @@
       <td>transgender</td>
     </tr>
     <tr>
+      <td>aa083</td>
       <td>Feelings and Knowing</td>
       <td>Antonio Damasio</td>
       <td>2021</td>
@@ -345,6 +387,7 @@
       <td>neuroscience biology</td>
     </tr>
     <tr>
+      <td>aa082</td>
       <td>Circe</td>
       <td>Madeleine Miller</td>
       <td>2018</td>
@@ -352,6 +395,7 @@
       <td>fiction greek mythology</td>
     </tr>
     <tr>
+      <td>aa081</td>
       <td>Carry On, Jeeves</td>
       <td>P. G. Wodehouse</td>
       <td>1925</td>
@@ -359,6 +403,7 @@
       <td>fiction comic</td>
     </tr>
     <tr>
+      <td>aa080</td>
       <td>Science in the Soul</td>
       <td>Richard Dawkins</td>
       <td>2017</td>
@@ -366,6 +411,7 @@
       <td>essays evolutionary biology</td>
     </tr>
     <tr>
+      <td>aa079</td>
       <td>The Triple Helix: Gene, Organism, and Environment</td>
       <td>Richard Lewontin</td>
       <td>2000</td>
@@ -373,6 +419,7 @@
       <td>evolutionary biology genetics</td>
     </tr>
     <tr>
+      <td>aa078</td>
       <td>Thomas Jefferson and the Tripoli Pirates</td>
       <td>Brian Kilmeade</td>
       <td>2016</td>
@@ -380,6 +427,7 @@
       <td>biography history american history islam</td>
     </tr>
     <tr>
+      <td>aa077</td>
       <td>The Inimitable Jeeves</td>
       <td>P. G. Wodehouse</td>
       <td>1923</td>
@@ -387,6 +435,7 @@
       <td>comic wodehouse</td>
     </tr>
     <tr>
+      <td>aa076</td>
       <td>The Gene’s-Eye View of Evolution</td>
       <td>J. Arvid Ågren</td>
       <td>2021</td>
@@ -394,13 +443,15 @@
       <td>evolutionary biology genetics</td>
     </tr>
     <tr>
-      <td>Kissinger</td>
+      <td>aa075</td>
+      <td>Kissinger: A Biography</td>
       <td>Walter Isaacson</td>
       <td>2005</td>
       <td>2023-06-10</td>
       <td>biography politics</td>
     </tr>
     <tr>
+      <td>aa074</td>
       <td>The Biggest Ideas in the Universe</td>
       <td>Sean Carroll</td>
       <td>2022</td>
@@ -408,6 +459,7 @@
       <td>physics quantum mechanics relativity</td>
     </tr>
     <tr>
+      <td>aa073</td>
       <td>A Brief History of Time</td>
       <td>Stephen Hawking</td>
       <td>1988</td>
@@ -415,6 +467,7 @@
       <td>physics cosmology</td>
     </tr>
     <tr>
+      <td>aa072</td>
       <td>The Order of Time</td>
       <td>Carlo Rovelli</td>
       <td>2018</td>
@@ -422,6 +475,7 @@
       <td>theoretical physics time</td>
     </tr>
     <tr>
+      <td>aa071</td>
       <td>Helgoland</td>
       <td>Carlo Rovelli</td>
       <td>2021</td>
@@ -429,6 +483,7 @@
       <td>theoretical physics quantum mechanics</td>
     </tr>
     <tr>
+      <td>aa070</td>
       <td>Something Deeply Hidden</td>
       <td>Sean Carroll</td>
       <td>2019</td>
@@ -436,6 +491,7 @@
       <td>theoretical physics quantum mechanics</td>
     </tr>
     <tr>
+      <td>aa069</td>
       <td>Seven Brief Lessons on Physics</td>
       <td>Carlo Rovelli</td>
       <td>2016</td>
@@ -443,6 +499,7 @@
       <td>physics</td>
     </tr>
     <tr>
+      <td>aa068</td>
       <td>Human: The Science Behind What Makes Us Unique</td>
       <td>Michael S. Gazzaniga</td>
       <td>2008</td>
@@ -450,13 +507,15 @@
       <td>neuroscience cognitive psychology biology</td>
     </tr>
     <tr>
+      <td>aa067</td>
       <td>Rebooting AI</td>
-      <td>Gary Marcus &amp; Ernest Davis</td>
+      <td>Gary Marcus, Ernest Davis</td>
       <td>2020</td>
       <td>2023-03-10</td>
       <td>artificial intelligence</td>
     </tr>
     <tr>
+      <td>aa066</td>
       <td>The Revolutionary: Samuel Adams</td>
       <td>Stacy Schiff</td>
       <td>2022</td>
@@ -464,6 +523,7 @@
       <td>american revolution history</td>
     </tr>
     <tr>
+      <td>aa065</td>
       <td>The Pope and Mussolini</td>
       <td>David Kertzer</td>
       <td>2015</td>
@@ -471,6 +531,7 @@
       <td>history world war ii wwii fascism catholicism</td>
     </tr>
     <tr>
+      <td>aa064</td>
       <td>Tales from Both Sides of the Brain</td>
       <td>Michael S. Gazzaniga</td>
       <td>2015</td>
@@ -478,6 +539,7 @@
       <td>neuroscience biology autobiography cognitive psychology</td>
     </tr>
     <tr>
+      <td>aa063</td>
       <td>Einstein: His Life and Universe</td>
       <td>Walter Isaacson</td>
       <td>2007</td>
@@ -485,6 +547,7 @@
       <td>biography physics relativity quantum mechanics</td>
     </tr>
     <tr>
+      <td>aa062</td>
       <td>The War Poets</td>
       <td>Robert Giddings</td>
       <td>1988</td>
@@ -492,6 +555,7 @@
       <td>poetry world war i wwi</td>
     </tr>
     <tr>
+      <td>aa061</td>
       <td>Endurance: Shackleton's Incredible Voyage</td>
       <td>Alfred Lansing</td>
       <td>1999</td>
@@ -499,6 +563,7 @@
       <td>biography explorer</td>
     </tr>
     <tr>
+      <td>aa060</td>
       <td>Lying</td>
       <td>Sam Harris</td>
       <td>2013</td>
@@ -506,6 +571,7 @@
       <td>philosophy ethics</td>
     </tr>
     <tr>
+      <td>aa059</td>
       <td>Conscious</td>
       <td>Annaka Harris</td>
       <td>2019</td>
@@ -513,6 +579,7 @@
       <td>consciousness philosophy neuroscience</td>
     </tr>
     <tr>
+      <td>aa058</td>
       <td>Shame</td>
       <td>Salman Rushdie</td>
       <td>1983</td>
@@ -520,6 +587,7 @@
       <td>fiction</td>
     </tr>
     <tr>
+      <td>aa057</td>
       <td>The End of Faith</td>
       <td>Sam Harris</td>
       <td>2004</td>
@@ -527,6 +595,7 @@
       <td>religion islam christianity atheism</td>
     </tr>
     <tr>
+      <td>aa056</td>
       <td>Unveiled</td>
       <td>Yasmine Mohammed</td>
       <td>2019</td>
@@ -534,6 +603,7 @@
       <td>islam religion</td>
     </tr>
     <tr>
+      <td>aa055</td>
       <td>Superintelligence</td>
       <td>Nick Bostrom</td>
       <td>2014</td>
@@ -541,6 +611,7 @@
       <td>artificial intelligence agi</td>
     </tr>
     <tr>
+      <td>aa054</td>
       <td>The Strange Order of Things</td>
       <td>Antonio Damasio</td>
       <td>2018</td>
@@ -548,6 +619,7 @@
       <td>neuroscience time</td>
     </tr>
     <tr>
+      <td>aa053</td>
       <td>The River of Consciousness</td>
       <td>Oliver Sacks</td>
       <td>2017</td>
@@ -555,6 +627,7 @@
       <td>consciousness neuroscience</td>
     </tr>
     <tr>
+      <td>aa052</td>
       <td>Kinds of Minds</td>
       <td>Daniel C. Dennett</td>
       <td>2019</td>
@@ -562,6 +635,7 @@
       <td>consciousness philosophy</td>
     </tr>
     <tr>
+      <td>aa051</td>
       <td>The War On The West</td>
       <td>Douglas Murray</td>
       <td>2022</td>
@@ -569,6 +643,7 @@
       <td>culture</td>
     </tr>
     <tr>
+      <td>aa050</td>
       <td>Artificial Intelligence: A Guide for Thinking Humans</td>
       <td>Melanie Mitchell</td>
       <td>2019</td>
@@ -576,6 +651,7 @@
       <td>artificial intelligence</td>
     </tr>
     <tr>
+      <td>aa049</td>
       <td>The Cement Garden</td>
       <td>Ian McEwan</td>
       <td>1978</td>
@@ -583,6 +659,7 @@
       <td>fiction</td>
     </tr>
     <tr>
+      <td>aa048</td>
       <td>Life 3.0</td>
       <td>Mark Tegmark</td>
       <td>2018</td>
@@ -590,6 +667,7 @@
       <td>artificial intelligence agi</td>
     </tr>
     <tr>
+      <td>aa047</td>
       <td>Homo Deus</td>
       <td>Yuval Noah Hariri</td>
       <td>2016</td>
@@ -597,6 +675,7 @@
       <td>artificial intelligence agi</td>
     </tr>
     <tr>
+      <td>aa046</td>
       <td>Pnin</td>
       <td>Vladimir Nabokov</td>
       <td>1957</td>
@@ -604,6 +683,7 @@
       <td>fiction</td>
     </tr>
     <tr>
+      <td>aa045</td>
       <td>The Rational Optimist</td>
       <td>Matt Ridley</td>
       <td>2010</td>
@@ -611,6 +691,7 @@
       <td>reason economics</td>
     </tr>
     <tr>
+      <td>aa044</td>
       <td>God Is Not Great</td>
       <td>Christopher Hitchens</td>
       <td>2007</td>
@@ -618,6 +699,7 @@
       <td>religion christianity atheism</td>
     </tr>
     <tr>
+      <td>aa043</td>
       <td>Seize The Day</td>
       <td>Saul Bellow</td>
       <td>1956</td>
@@ -625,6 +707,7 @@
       <td>fiction</td>
     </tr>
     <tr>
+      <td>aa042</td>
       <td>The Selfish Gene 2016 (40th Anniversary Ed.)</td>
       <td>Richard Dawkins</td>
       <td>1979</td>
@@ -632,6 +715,7 @@
       <td>evolutionary biology genetics</td>
     </tr>
     <tr>
+      <td>aa041</td>
       <td>Why Evolution Is True</td>
       <td>Jerry Coyne</td>
       <td>2010</td>
@@ -639,6 +723,7 @@
       <td>evolutionary biology</td>
     </tr>
     <tr>
+      <td>aa040</td>
       <td>Indelible City</td>
       <td>Louisa Lim</td>
       <td>2022</td>
@@ -646,6 +731,7 @@
       <td>hong kong history</td>
     </tr>
     <tr>
+      <td>aa039</td>
       <td>Blood Meridian</td>
       <td>Cormac McCarthy</td>
       <td>1985</td>
@@ -653,6 +739,7 @@
       <td>fiction western</td>
     </tr>
     <tr>
+      <td>aa038</td>
       <td>The Elegant Universe</td>
       <td>Brian Greene</td>
       <td>1999</td>
@@ -660,6 +747,7 @@
       <td>theoretical physics string theory science cosmology</td>
     </tr>
     <tr>
+      <td>aa037</td>
       <td>Factfulness</td>
       <td>Hans Rosling</td>
       <td>2018</td>
@@ -667,6 +755,7 @@
       <td>reason statistics</td>
     </tr>
     <tr>
+      <td>aa036</td>
       <td>Time’s Arrow</td>
       <td>Martin Amis</td>
       <td>1991</td>
@@ -674,6 +763,7 @@
       <td>fiction time nazism holocaust historical fiction</td>
     </tr>
     <tr>
+      <td>aa035</td>
       <td>Klara and the Sun</td>
       <td>Kazuo Ishiguro</td>
       <td>2021</td>
@@ -681,6 +771,7 @@
       <td>artificial intelligence fiction science fiction</td>
     </tr>
     <tr>
+      <td>aa034</td>
       <td>If Then</td>
       <td>Jill Lepore</td>
       <td>2020</td>
@@ -688,6 +779,7 @@
       <td>data computing analytics</td>
     </tr>
     <tr>
+      <td>aa033</td>
       <td>The Grand Design</td>
       <td>Stephen Hawking</td>
       <td>2010</td>
@@ -695,6 +787,7 @@
       <td>physics cosmology astrophysics</td>
     </tr>
     <tr>
+      <td>aa032</td>
       <td>Just Six Numbers</td>
       <td>Martin Rees</td>
       <td>2001</td>
@@ -702,6 +795,7 @@
       <td>physics science cosmology astrophysics cosmology</td>
     </tr>
     <tr>
+      <td>aa031</td>
       <td>Hitch-22</td>
       <td>Christopher Hitchens</td>
       <td>2011</td>
@@ -709,6 +803,7 @@
       <td>autobiography</td>
     </tr>
     <tr>
+      <td>aa030</td>
       <td>Incognito: The Secret Lives of the Brain</td>
       <td>David Eagleman</td>
       <td>2011</td>
@@ -716,6 +811,7 @@
       <td>neuroscience cognitive psychology biology</td>
     </tr>
     <tr>
+      <td>aa029</td>
       <td>The Beginning of Infinity</td>
       <td>David Deutsch</td>
       <td>2011</td>
@@ -723,6 +819,7 @@
       <td>physics science philosophy artificial intelligence cosmology</td>
     </tr>
     <tr>
+      <td>aa028</td>
       <td>On Color</td>
       <td>David Scott Kastan</td>
       <td>2018</td>
@@ -730,6 +827,7 @@
       <td>color</td>
     </tr>
     <tr>
+      <td>aa027</td>
       <td>The Constitution of Knowledge</td>
       <td>Jonathan Rauch</td>
       <td>2021</td>
@@ -737,6 +835,7 @@
       <td>culture philosophy</td>
     </tr>
     <tr>
+      <td>aa026</td>
       <td>Enlightenment Now</td>
       <td>Steven Pinker</td>
       <td>2018</td>
@@ -744,6 +843,7 @@
       <td>history science psychology</td>
     </tr>
     <tr>
+      <td>aa025</td>
       <td>Rationality</td>
       <td>Steven Pinker</td>
       <td>2021</td>
@@ -751,6 +851,7 @@
       <td>reason statistics psychology</td>
     </tr>
     <tr>
+      <td>aa024</td>
       <td>The Third Chimpanzee</td>
       <td>Jared Diamond</td>
       <td>1991</td>
@@ -758,6 +859,7 @@
       <td>anthropology culture</td>
     </tr>
     <tr>
+      <td>aa023</td>
       <td>Waiting for the Barbarians</td>
       <td>J. M. Coetzee</td>
       <td>1980</td>
@@ -765,6 +867,7 @@
       <td>fiction south africa colonialism</td>
     </tr>
     <tr>
+      <td>aa022</td>
       <td>Free Will</td>
       <td>Sam Harris</td>
       <td>2012</td>
@@ -772,6 +875,7 @@
       <td>philosophy free will neuroscience</td>
     </tr>
     <tr>
+      <td>aa021</td>
       <td>The Big Picture</td>
       <td>Sean Carroll</td>
       <td>2017</td>
@@ -779,6 +883,7 @@
       <td>physics science cosmology</td>
     </tr>
     <tr>
+      <td>aa020</td>
       <td>The Odyssey</td>
       <td>Homer, tr. Emily Wilson</td>
       <td>2018</td>
@@ -786,6 +891,7 @@
       <td>greek mythology epic poetry</td>
     </tr>
     <tr>
+      <td>aa019</td>
       <td>The Secular Enlightenment</td>
       <td>Margaret C. Jacob</td>
       <td>2019</td>
@@ -793,6 +899,7 @@
       <td>enlightenment history</td>
     </tr>
     <tr>
+      <td>aa018</td>
       <td>The Greatest Show on Earth</td>
       <td>Richard Dawkins</td>
       <td>2009</td>
@@ -800,6 +907,7 @@
       <td>evolutionary biology science</td>
     </tr>
     <tr>
+      <td>aa017</td>
       <td>Nine Nasty Words</td>
       <td>John McWhorter</td>
       <td>2021</td>
@@ -807,6 +915,7 @@
       <td>linguistics</td>
     </tr>
     <tr>
+      <td>aa016</td>
       <td>The Moral Landscape</td>
       <td>Sam Harris</td>
       <td>2011</td>
@@ -814,6 +923,7 @@
       <td>ethics philosophy religion</td>
     </tr>
     <tr>
+      <td>aa015</td>
       <td>Eat &amp; Run</td>
       <td>Scott Jurek</td>
       <td>2013</td>
@@ -821,6 +931,7 @@
       <td>running nutrition ultramarathon</td>
     </tr>
     <tr>
+      <td>aa014</td>
       <td>Mike and Psmith</td>
       <td>P.G. Wodehouse</td>
       <td>1953</td>
@@ -828,6 +939,7 @@
       <td>comic fiction</td>
     </tr>
     <tr>
+      <td>aa013</td>
       <td>The Cool Impossible</td>
       <td>Eric Orton</td>
       <td>2014</td>
@@ -835,6 +947,7 @@
       <td>running ultramarathon endurance</td>
     </tr>
     <tr>
+      <td>aa012</td>
       <td>Born to Run</td>
       <td>Christopher McDougall</td>
       <td>2009</td>
@@ -842,6 +955,7 @@
       <td>running tarahumara ultramarathon endurance</td>
     </tr>
     <tr>
+      <td>aa011</td>
       <td>The Brain</td>
       <td>David Eagleman</td>
       <td>2017</td>
@@ -849,6 +963,7 @@
       <td>neuroscience biology</td>
     </tr>
     <tr>
+      <td>aa010</td>
       <td>The Body</td>
       <td>Bill Bryson</td>
       <td>2019</td>
@@ -856,6 +971,7 @@
       <td>anatomy biology</td>
     </tr>
     <tr>
+      <td>aa009</td>
       <td>The Coddling of the American Mind</td>
       <td>Greg Lukianoff, Jonathan Haidt</td>
       <td>2018</td>
@@ -863,6 +979,7 @@
       <td>psychology education parenting culture</td>
     </tr>
     <tr>
+      <td>aa008</td>
       <td>The Closing of the Western Mind: The Rise of Faith and the Fall of Reason</td>
       <td>Charles Freeman</td>
       <td>2003</td>
@@ -870,6 +987,7 @@
       <td>history religion christianity</td>
     </tr>
     <tr>
+      <td>aa007</td>
       <td>The God Delusion</td>
       <td>Richard Dawkins</td>
       <td>2006</td>
@@ -877,6 +995,7 @@
       <td>religion christianity islam atheism</td>
     </tr>
     <tr>
+      <td>aa006</td>
       <td>Anatomy for Runners</td>
       <td>Jay Dicharry</td>
       <td>2012</td>
@@ -884,6 +1003,7 @@
       <td>anatomy running sports fitness</td>
     </tr>
     <tr>
+      <td>aa005</td>
       <td>The Four Horsemen</td>
       <td>Christopher Hitchens, Richard Dawkins, Sam Harris, Daniel C. Dennet</td>
       <td>2007</td>
@@ -891,6 +1011,7 @@
       <td>religion philosophy atheism</td>
     </tr>
     <tr>
+      <td>aa004</td>
       <td>Outgrowing God</td>
       <td>Richard Dawkins</td>
       <td>2019</td>
@@ -898,6 +1019,7 @@
       <td>religion christianity atheism</td>
     </tr>
     <tr>
+      <td>aa003</td>
       <td>The Three-Body Problem</td>
       <td>Cixin Liu</td>
       <td>2014</td>
@@ -905,6 +1027,7 @@
       <td>science fiction scifi physics fiction china</td>
     </tr>
     <tr>
+      <td>aa002</td>
       <td>What I talk about when I talk about running</td>
       <td>Haruki Murakami</td>
       <td>2009</td>
@@ -912,6 +1035,7 @@
       <td>running short stories</td>
     </tr>
     <tr>
+      <td>aa001</td>
       <td>Endure: Mind, Body, and the Curiously Elastic Limits of Human Performance</td>
       <td>Alex Hutchinson</td>
       <td>2018</td>
@@ -919,13 +1043,15 @@
       <td>running endurance sports psychology fitness biology</td>
     </tr>
     <tr>
-      <td>Isaac Newton</td>
-      <td>James Gleick</td>
-      <td>2004</td>
+      <td>aa114</td>
+      <td>In a Different Key: The Story of Autism</td>
+      <td>John Donvan, Caren Zucker</td>
+      <td>2016</td>
       <td>NaN</td>
-      <td>physics newtonian mechanics enlightenment biography</td>
+      <td>autism neuroscience</td>
     </tr>
     <tr>
+      <td>aa097</td>
       <td>The Conscious Mind</td>
       <td>David J. Chalmers</td>
       <td>1997</td>
@@ -933,6 +1059,7 @@
       <td>consciousness philosophy</td>
     </tr>
     <tr>
+      <td>aa107</td>
       <td>A History of Christianity: The First Three Thousand Years</td>
       <td>Diarmaid MacCulloch</td>
       <td>2009</td>
@@ -940,6 +1067,7 @@
       <td>christianity religion history catholicism judaism islam</td>
     </tr>
     <tr>
+      <td>aa105</td>
       <td>Lessons</td>
       <td>Ian McEwan</td>
       <td>2022</td>
@@ -947,6 +1075,7 @@
       <td>fiction</td>
     </tr>
     <tr>
+      <td>aa100</td>
       <td>The Alignment Problem</td>
       <td>Brian Christian</td>
       <td>2020</td>
@@ -954,6 +1083,7 @@
       <td>artificial intelligence</td>
     </tr>
     <tr>
+      <td>aa099</td>
       <td>Intuition Pumps and Other Tools for Thinking</td>
       <td>Daniel C. Dennett</td>
       <td>2014</td>
@@ -961,6 +1091,7 @@
       <td>philosophy</td>
     </tr>
     <tr>
+      <td>aa101</td>
       <td>God: The Most Unpleasant Character in All Fiction</td>
       <td>Dan Barker</td>
       <td>2016</td>
@@ -968,6 +1099,7 @@
       <td>christianity religion bible</td>
     </tr>
     <tr>
+      <td>aa108</td>
       <td>Determined</td>
       <td>Robert M. Sapolsky</td>
       <td>2023</td>

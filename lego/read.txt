@@ -65,7 +65,7 @@ aa063|Einstein: His Life and Universe|2007|Walter Isaacson|paperback|2022-12-27|
 aa064|Tales from Both Sides of the Brain|2015|Michael S. Gazzaniga|SimplyE|2023-01-14|neuroscience biology autobiography cognitive psychology
 aa065|The Pope and Mussolini| 2015|David Kertzer|SimplyE|2023-02-01|history world war ii wwii fascism catholicism
 aa066|The Revolutionary: Samuel Adams|2022|Stacy Schiff|SimplyE|2023-02-14|american revolution history
-aa067|Rebooting AI|2020|Gary Marcus & Ernest Davis|paperback|2023-03-10|artificial intelligence
+aa067|Rebooting AI|2020|Gary Marcus, Ernest Davis|paperback|2023-03-10|artificial intelligence
 aa068|Human: The Science Behind What Makes Us Unique|2008|Michael S. Gazzaniga|hardcover|2023-03-17|neuroscience cognitive psychology biology
 aa069|Seven Brief Lessons on Physics|2016|Carlo Rovelli|kindle|2023-03-28|physics
 aa070|Something Deeply Hidden|2019|Sean Carroll|Libby|2023-03-30|theoretical physics quantum mechanics
@@ -73,7 +73,7 @@ aa071|Helgoland|2021|Carlo Rovelli|Libby|2023-04-06|theoretical physics quantum 
 aa072|The Order of Time|2018|Carlo Rovelli|Libby|2023-04-12|theoretical physics time
 aa073|A Brief History of Time|1988|Stephen Hawking|Libby|2023-05-03|physics cosmology
 aa074|The Biggest Ideas in the Universe|2022|Sean Carroll|Libby|2023-05-04|physics quantum mechanics relativity
-aa075|Kissinger|2005|Walter Isaacson|Libby|2023-06-10|biography politics
+aa075|Kissinger: A Biography|2005|Walter Isaacson|Libby|2023-06-10|biography politics
 aa076|The Gene’s-Eye View of Evolution|2021|J. Arvid Ågren|hardcover|2023-08-12|evolutionary biology genetics
 aa077|The Inimitable Jeeves|1923|P. G. Wodehouse|paperback|2023-08-15|comic wodehouse
 aa078|Thomas Jefferson and the Tripoli Pirates|2016|Brian Kilmeade|Libby|2023-08-17|biography history american history islam
@@ -86,7 +86,7 @@ aa084|Irreversible Damage|2020|Abigail Shrier|Libby|2023-11-07|transgender
 aa085|Behave|2017|Robert M. Sapolsky|paperback|2023-11-13|neuroscience biology psychology endocrinology
 aa086|If on a winters night a traveler|1979|Italo Calvino|paperback|2023-11-18|fiction
 aa087|The Magic of Reality|2011|Richard Dawkins|Libby|2023-11-28|evolutionary biology mythology creation myths
-aa088|Elbow Room|1984|Daniel C. Dennett|Libby|2023-11-30|philosophy free will
+aa088|Elbow Room|1984|Daniel C. Dennett|Libby|2023-11-30|philosophy free will compatibalism determinism
 aa089|The Passenger|2022|Cormac McCarthy|hardcover|2023-12-26|fiction
 aa090|Consciousness Explained|1992|Daniel Dennett|paperback|2023-12-31|consciousness philosophy neuroscience
 aa091|Brief Candle in the Dark|2015|Richard Dawkins|Libby|2024-01-25|essays evolutionary biology
@@ -104,7 +104,8 @@ aa109|Six Impossible Things: The Mysteries of the Quantum World|2019|John Gribbi
 aa110|Touching a Nerve: The Self as Brain|2013|Patricia S. Churchland|Libby|2024-05-08|philosophy neuroscience mind
 aa111|Kitchen Confidential: Adventures in the Culinary Underbelly|2000|Anthony Bourdain|Libby|2024-05-11|food restaurants culinary industry autobiography
 aa112|White Holes|2023|Carlo Rovelli|Libby|2024-05-12|astrophysics cosmology
-aa113|Isaac Newton|2004|James Gleick|Libby||physics newtonian mechanics enlightenment biography
+aa113|Isaac Newton|2004|James Gleick|Libby|2024-05-14|biography physics newtonian mechanics enlightenment
+aa114|In a Different Key: The Story of Autism|2016|John Donvan, Caren Zucker|hardcover||autism neuroscience
 aa097|The Conscious Mind|1997|David J. Chalmers|paperback||consciousness philosophy
 aa107|A History of Christianity: The First Three Thousand Years|2009|Diarmaid MacCulloch|paperback||christianity religion history catholicism judaism islam
 aa105|Lessons|2022|Ian McEwan|hardcover||fiction
