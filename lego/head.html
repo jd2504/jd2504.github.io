@@ -2,13 +2,29 @@
 
 <html>
   <head>
-    <title>eBook of books</title>
+    <title>e-book of books</title>
   </head>
 
-  <input type="text" id="titleName" onkeyup="nameSearch()" placeholder="Search for title.." title="Type in a title">
-  <input type="text" id="authorName" onkeyup="authorSearch()" placeholder="Search for author.." title="Type in a author">
-  <input type="text" id="kwName" onkeyup="kwSearch()" placeholder="Search for keyword.." title="Type in a keyword">
-  <input type="text" id="readDate" onkeyup="readSearch()" placeholder="Type in a year.." title="Type in a date">
+  <input
+    type="text" id="titleName"
+    onkeyup="nameSearch()"
+    placeholder="Search for title.."
+    title="Type in a title">
+  <input
+    type="text" id="authorName"
+    onkeyup="authorSearch()"
+    placeholder="Search for author.."
+    title="Type in a author">
+  <input
+    type="text" id="kwName"
+    onkeyup="kwSearch()"
+    placeholder="Search for keyword.."
+    title="Type in a keyword">
+  <input
+    type="text" id="readDate"
+    onkeyup="readSearch()"
+    placeholder="Type in a year.."
+    title="Type in a date">
   
 
 
@@ -22,7 +38,7 @@
       table = document.getElementById("readTxt");
       tr = table.getElementsByTagName("tr");
       for (i = 0; i < tr.length; i++) {
-	td = tr[i].getElementsByTagName("td")[0];
+	td = tr[i].getElementsByTagName("td")[1];
 	if (td) {
 	  txtValue = td.textContent || td.innerText;
 	  if (txtValue.toUpperCase().indexOf(filter) > -1) {
@@ -41,7 +57,7 @@
       table = document.getElementById("readTxt");
       tr = table.getElementsByTagName("tr");
       for (i = 0; i < tr.length; i++) {
-	td = tr[i].getElementsByTagName("td")[1];
+	td = tr[i].getElementsByTagName("td")[2];
 	if (td) {
 	  txtValue = td.textContent || td.innerText;
 	  if (txtValue.toUpperCase().indexOf(filter) > -1) {
@@ -60,7 +76,7 @@
       table = document.getElementById("readTxt");
       tr = table.getElementsByTagName("tr");
       for (i = 0; i < tr.length; i++) {
-	td = tr[i].getElementsByTagName("td")[4];
+	td = tr[i].getElementsByTagName("td")[5];
 	if (td) {
 	  txtValue = td.textContent || td.innerText;
 	  if (txtValue.toUpperCase().indexOf(filter) > -1) {
@@ -79,7 +95,7 @@
       table = document.getElementById("readTxt");
       tr = table.getElementsByTagName("tr");
       for (i = 0; i < tr.length; i++) {
-	td = tr[i].getElementsByTagName("td")[3];
+	td = tr[i].getElementsByTagName("td")[4];
 	if (td) {
 	  txtValue = td.textContent || td.innerText;
 	  if (txtValue.toUpperCase().indexOf(filter) > -1) {
@@ -130,8 +146,7 @@
 	}
       }
     }
-	  
-	  
+    
   </script>
 
   <style>
@@ -166,9 +181,9 @@
 
   <body>
     <font size="2" face="Arial" >
-    <h1>eBook of books</h1>
+      <h1>e-book of books</h1>
+
+      notes and log of what's come off the shelf, starting 2021...
 
     
-
-
 

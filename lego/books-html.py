@@ -20,7 +20,7 @@ read_html = read_in.to_html(
     index=False,
     justify='left',
     columns=[
-        'title', 'author', 'published', 'read', 'keywords'
+        'readid', 'title', 'author', 'published', 'read', 'keywords'
     ]
 )
 
