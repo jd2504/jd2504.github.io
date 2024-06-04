@@ -107,7 +107,7 @@ aa112|White Holes|Carlo Rovelli|2023|Libby|astrophysics cosmology|2024-05-12
 aa113|Isaac Newton|James Gleick|2004|Libby|biography physics newtonian mechanics enlightenment|2024-05-14
 aa114|In a Different Key: The Story of Autism|John Donvan, Caren Zucker|2016|hardcover|autism neuroscience|2024-05-24
 aa115|A Universe from Nothing: Why There is Something from Nothing|Lawrence M. Krauss|2012|Libby|astrophysics cosmology theoretical physics|2024-05-29
-aa116|Invisible Women: Data Bias in a World Designed for Men|Caroline Criado-Perez|2019|data bias|2024-06-03
+aa116|Invisible Women: Data Bias in a World Designed for Men|Caroline Criado-Perez|2019|Libby|data bias|2024-06-03
 aa097|The Conscious Mind|David J. Chalmers|1997|paperback|consciousness philosophy|
 aa107|A History of Christianity: The First Three Thousand Years|Diarmaid MacCulloch|2009|paperback|christianity religion history catholicism judaism islam|
 aa105|Lessons|Ian McEwan|2022|hardcover|fiction|
