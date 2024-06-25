@@ -21,7 +21,6 @@ def create_link(readid):
     file_path = os.path.join(path, f"{readid}.txt")
     github_file_path = f"{github_path}{readid}.txt"
     
-    print(github_file_path)
     if os.path.exists(file_path):
         return f'<a href="{github_file_path}">{readid}</a>'
     else:
