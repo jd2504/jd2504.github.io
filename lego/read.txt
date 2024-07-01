@@ -111,6 +111,8 @@ aa116|Invisible Women: Data Bias in a World Designed for Men|Caroline Criado-Per
 aa117|Elizabeth Finch|Julian Barnes|2022|Libby|fiction christianity apostacy roman|2024-06-05
 aa119|Illiberal America: A History|Steven Hahn|2024|Libby|illiberalism democracy american history|2024-06-19
 aa118|Nothing to Be Afraid Of|Julian Barnes|2008|Libby|memoir autobiography faith atheism death|2024-06-25
+aa121|The Disordered Mind|Eric R. Kandel|2018|Libby|neuroscience mind disorders|2024-06-30
+aa122|Human Compatible: Artificial Intelligence and the Problem of Control|Stuart Russell|2019|hardcover|artificial intelligence control problem alignment|
 aa120|Being You: A New Science of Consciousness|Anil Seth|2021|Libby|consciousness neuroscience|
 aa097|The Conscious Mind|David J. Chalmers|1997|paperback|consciousness philosophy|
 aa107|A History of Christianity: The First Three Thousand Years|Diarmaid MacCulloch|2009|paperback|christianity religion history catholicism judaism islam|
