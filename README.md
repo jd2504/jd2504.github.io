@@ -12,4 +12,10 @@
 
 ### papers
 
-[Architecture of the brain’s visual system enhances network stability and performance through layers, delays, and feedback](https://jd2504.github.io/exaro/202311-verlarde_makse_parra-architecture_of_the_brains_visual_system.txt), Verlande, Makse, and Parra, 2023 [2024-04-15]
+## refs and useful resources dump
+
+[use gnu emacs](https://www2.lib.uchicago.edu/keith/emacs/) - u chicago, waclena book
+
+[tufte-latex classes](https://www.ctan.org/pkg/tufte-latex)
+
+[learn medical neuroscience site](https://www.learnmedicalneuroscience.nl/)
