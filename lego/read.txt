@@ -112,12 +112,13 @@ aa117|Elizabeth Finch|Julian Barnes|2022|Libby|fiction christianity apostacy rom
 aa119|Illiberal America: A History|Steven Hahn|2024|Libby|illiberalism democracy american history|2024-06-19
 aa118|Nothing to Be Afraid Of|Julian Barnes|2008|Libby|memoir autobiography faith atheism death|2024-06-25
 aa121|The Disordered Mind|Eric R. Kandel|2018|Libby|neuroscience mind disorders|2024-06-30
-aa122|Human Compatible: Artificial Intelligence and the Problem of Control|Stuart Russell|2019|hardcover|artificial intelligence control problem alignment|
+aa122|Human Compatible: Artificial Intelligence and the Problem of Control|Stuart Russell|2019|hardcover|artificial intelligence control problem alignment|2024-07-08
+aa123|Dark and Magical Places: The Neuroscience of Navigation|Christopher Kemp|2022|Libby|neuroscience navigation hippocampus place cells grid cells|
 aa120|Being You: A New Science of Consciousness|Anil Seth|2021|Libby|consciousness neuroscience|
 aa097|The Conscious Mind|David J. Chalmers|1997|paperback|consciousness philosophy|
 aa107|A History of Christianity: The First Three Thousand Years|Diarmaid MacCulloch|2009|paperback|christianity religion history catholicism judaism islam|
 aa105|Lessons|Ian McEwan|2022|hardcover|fiction|
-aa100|The Alignment Problem|Brian Christian|2020|paperback|artificial intelligence|
+aa100|The Alignment Problem|Brian Christian|2020|paperback|artificial intelligence control problem alignment|
 aa099|Intuition Pumps and Other Tools for Thinking|Daniel C. Dennett|2014|paperback|philosophy|
 aa101|God: The Most Unpleasant Character in All Fiction|Dan Barker|2016|Libby|christianity religion bible|
 aa108|Determined|Robert M. Sapolsky|2023|hardback|determinism neuroscience free will philosophy biology|
