@@ -115,7 +115,7 @@ aa121|The Disordered Mind|Eric R. Kandel|2018|Libby|neuroscience mind disorders|
 aa122|Human Compatible: Artificial Intelligence and the Problem of Control|Stuart Russell|2019|hardcover|artificial intelligence control problem alignment|2024-07-08
 aa123|Dark and Magical Places: The Neuroscience of Navigation|Christopher Kemp|2022|Libby|neuroscience navigation hippocampus place cells grid cells|2024-07-14
 aa124|The Extended Mind|Annie M. Paul|2021|Libby|neuroscience extended mind|2024-07-19
-aa125|Schoenberg|Harvey Sachs|2023|Libby|music biography schoenberg serialism|
+aa125|Schoenberg|Harvey Sachs|2023|Libby|music biography schoenberg serialism|2024-07-27
 aa120|Being You: A New Science of Consciousness|Anil Seth|2021|Libby|consciousness neuroscience|
 aa097|The Conscious Mind|David J. Chalmers|1997|paperback|consciousness philosophy|
 aa107|A History of Christianity: The First Three Thousand Years|Diarmaid MacCulloch|2009|paperback|christianity religion history catholicism judaism islam|
