@@ -117,6 +117,8 @@ aa123|Dark and Magical Places: The Neuroscience of Navigation|Christopher Kemp|2
 aa124|The Extended Mind|Annie M. Paul|2021|Libby|neuroscience extended mind|2024-07-19
 aa125|Schoenberg|Harvey Sachs|2023|Libby|music biography schoenberg serialism|2024-07-27
 aa126|The Myth of Artificial Intelligence|Erik J. Larson|2021|Libby|artificial intelligence|2024-08-02
+aa128|Frankenstein; or, The Modern Prometheus|Mary Shelley|1818|paperback|horror science fiction scifi|2024-08-19
+aa129|The Science of Can and Can't: A Physicist's Journey through the Land of Counterfactuals|Chiara Marletto|2021|paperback|physics counterfactuals science|
 aa127|The Genome Defense|Jorge L. Contreras|2021|Libby|genomics genetics law|
 aa120|Being You: A New Science of Consciousness|Anil Seth|2021|Libby|consciousness neuroscience|
 aa097|The Conscious Mind|David J. Chalmers|1997|paperback|consciousness philosophy|
