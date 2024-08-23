@@ -118,13 +118,13 @@ aa124|The Extended Mind|Annie M. Paul|2021|Libby|neuroscience extended mind|2024
 aa125|Schoenberg|Harvey Sachs|2023|Libby|music biography schoenberg serialism|2024-07-27
 aa126|The Myth of Artificial Intelligence|Erik J. Larson|2021|Libby|artificial intelligence|2024-08-02
 aa128|Frankenstein; or, The Modern Prometheus|Mary Shelley|1818|paperback|horror science fiction scifi|2024-08-19
-aa129|The Science of Can and Can't: A Physicist's Journey through the Land of Counterfactuals|Chiara Marletto|2021|paperback|physics counterfactuals science|
-aa127|The Genome Defense|Jorge L. Contreras|2021|Libby|genomics genetics law|
+aa129|The Science of Can and Can't: A Physicist's Journey through the Land of Counterfactuals|Chiara Marletto|2021|paperback|physics counterfactuals science|2024-99-99
+aa127|The Genome Defense|Jorge L. Contreras|2021|Libby|genomics genetics law|2024-99-99
 aa120|Being You: A New Science of Consciousness|Anil Seth|2021|Libby|consciousness neuroscience|
-aa097|The Conscious Mind|David J. Chalmers|1997|paperback|consciousness philosophy|
-aa107|A History of Christianity: The First Three Thousand Years|Diarmaid MacCulloch|2009|paperback|christianity religion history catholicism judaism islam|
+aa097|The Conscious Mind|David J. Chalmers|1997|paperback|consciousness philosophy|2024-99-99
+aa107|A History of Christianity: The First Three Thousand Years|Diarmaid MacCulloch|2009|paperback|christianity religion history catholicism judaism islam|2024-99-99
 aa105|Lessons|Ian McEwan|2022|hardcover|fiction|
-aa100|The Alignment Problem|Brian Christian|2020|paperback|artificial intelligence control problem alignment|
+aa100|The Alignment Problem|Brian Christian|2020|paperback|artificial intelligence control problem alignment|2024-99-99
 aa099|Intuition Pumps and Other Tools for Thinking|Daniel C. Dennett|2014|paperback|philosophy|
 aa101|God: The Most Unpleasant Character in All Fiction|Dan Barker|2016|Libby|christianity religion bible|
 aa108|Determined|Robert M. Sapolsky|2023|hardback|determinism neuroscience free will philosophy biology|
