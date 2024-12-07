@@ -126,6 +126,7 @@ aa133|The End of Race Politics|Coleman Hughes|2024|Libby|race racism|2024-10-22
 aa135|The Age of Insight: The Quest to Understand the Unconscious in Art, Mind, and Brain, from Vienna 1900 to the Present|Eric R. Kandel|2012|Libby|art modernism expressionism schiele kokoschka klimt symbolism neuroscience brain unconscious|2024-12-03
 aa134|In Search of Memory|Eric R. Kandel|2018|paperback|neuroscience autobiography wwii|2024-12-05
 aa136|A Brief History of Everyone Who Ever Lived: The Human Story Retold Through Our Genes|Adam Rutherford|2017|Libby|genetics genomics evolutionary biology|2024-99-99
+aa137|The Mind Doesn't Work That Way: The Scope and Limits of Computational Psychology|Jerry A. Fodor|2001|hardcover|philosophy mind computational neuroscience psychology|2024-99-99
 aa129|The Science of Can and Can't: A Physicist's Journey through the Land of Counterfactuals|Chiara Marletto|2021|paperback|physics counterfactuals science|2024-99-99
 aa120|Being You: A New Science of Consciousness|Anil Seth|2021|Libby|consciousness neuroscience|
 aa097|The Conscious Mind|David J. Chalmers|1997|paperback|consciousness philosophy|2024-99-99
