@@ -18,11 +18,15 @@ read_in = pd.read_csv(t_read_path, sep='|').sort_values(by=['read'], ascending=F
 
 # create hyperlink if file exists
 def create_link(readid):
-    file_path = os.path.join(path, f"{readid}.txt")
-    github_file_path = f"{github_path}{readid}.txt"
+    txt_path = os.path.join(path, f"{readid}.txt")
+    pdf_path = os.path.join(path, f"{readid}.pdf")
+    github_txt_path = f"{github_path}{readid}.txt"
+    github_pdf_path = f"{github_path}{readid}.txt"
     
-    if os.path.exists(file_path):
-        return f'<a href="{github_file_path}">{readid}</a>'
+    if os.path.exists(txt_path):
+        return f'<a href="{github_txt_path}">{readid}</a>'
+    elif os.path.exists(pdf_path):
+        return f'<a href="{github_pdf_path}">{readid}</a>'
     else:
         return readid
 
