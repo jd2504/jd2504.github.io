@@ -23,8 +23,10 @@ def create_link(readid):
     github_txt_path = f"{github_path}{readid}.txt"
     github_pdf_path = f"{github_path}{readid}.txt"
     
+    # txt notes and files
     if os.path.exists(txt_path):
         return f'<a href="{github_txt_path}">{readid}</a>'
+    # pdf notes and files - need to fix
     elif os.path.exists(pdf_path):
         return f'<a href="{github_pdf_path}">{readid}</a>'
     else:
