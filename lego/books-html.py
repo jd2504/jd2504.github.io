@@ -21,7 +21,7 @@ def create_link(readid):
     txt_path = os.path.join(path, f"{readid}.txt")
     pdf_path = os.path.join(path, f"{readid}.pdf")
     github_txt_path = f"{github_path}{readid}.txt"
-    github_pdf_path = f"{github_path}{readid}.txt"
+    github_pdf_path = f"{github_path}{readid}.pdf"
     
     # txt notes and files
     if os.path.exists(txt_path):
