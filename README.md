@@ -2,6 +2,8 @@
 
 [eBook of Books](https://jd2504.github.io/lego/read.html)
 
+[2024](https://jd2504.github.io/exaro/reading_2024.txt)
+
 
 ## writing
 
