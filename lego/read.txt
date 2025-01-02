@@ -110,7 +110,7 @@ aa115|A Universe from Nothing: Why There is Something from Nothing|Lawrence M. K
 aa116|Invisible Women: Data Bias in a World Designed for Men|Caroline Criado-Perez|2019|Libby|data bias women feminism|2024-06-03
 aa117|Elizabeth Finch|Julian Barnes|2022|Libby|fiction christianity apostacy roman|2024-06-05
 aa119|Illiberal America: A History|Steven Hahn|2024|Libby|illiberalism democracy american history|2024-06-19
-aa118|Nothing to Be Afraid Of|Julian Barnes|2008|Libby|memoir autobiography faith atheism death|2024-06-25
+aa118|Nothing to Be Frightened Of|Julian Barnes|2008|Libby|memoir autobiography faith atheism death|2024-06-25
 aa121|The Disordered Mind|Eric R. Kandel|2018|Libby|neuroscience mind disorders|2024-06-30
 aa122|Human Compatible: Artificial Intelligence and the Problem of Control|Stuart Russell|2019|hardcover|artificial intelligence control problem alignment|2024-07-08
 aa123|Dark and Magical Places: The Neuroscience of Navigation|Christopher Kemp|2022|Libby|neuroscience navigation hippocampus place cells grid cells|2024-07-14
@@ -124,7 +124,7 @@ aa131|Genome|Matt Ridley|2011|Libby|genomics genetics|2024-10-16
 aa132|Reductionism in Art and Brain Science|Eric R. Kandel|2016|Libby|art modernism abstract expressionism neuroscience brain perception|2024-10-18
 aa133|The End of Race Politics|Coleman Hughes|2024|Libby|race racism|2024-10-22
 aa135|The Age of Insight: The Quest to Understand the Unconscious in Art, Mind, and Brain, from Vienna 1900 to the Present|Eric R. Kandel|2012|Libby|art modernism expressionism schiele kokoschka klimt symbolism neuroscience brain unconscious|2024-12-03
-aa134|In Search of Memory|Eric R. Kandel|2018|paperback|neuroscience autobiography wwii|2024-12-05
+aa134|In Search of Memory|Eric R. Kandel|2007|paperback|neuroscience autobiography wwii|2024-12-05
 aa136|A Brief History of Everyone Who Ever Lived: The Human Story Retold Through Our Genes|Adam Rutherford|2017|Libby|genetics genomics evolutionary biology|2024-12-18
 aa138|The Runaway Species|Anthony Brandt; David Eagleman|2017|Libby|neuroscience anthropology art creativity|2024-12-22
 aa137|The Mind Doesn't Work That Way: The Scope and Limits of Computational Psychology|Jerry A. Fodor|2001|hardcover|philosophy mind computational neuroscience psychology|2024-99-99
