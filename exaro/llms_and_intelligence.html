@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr" platform="linux" style="--font-family: Helvetica, Arial, sans-serif; --font-weight: normal;"><head>
+    <title id="reader-title">LLMs, the brain, and whatever genuine intelligence is | LinkedIn</title>
+
+        <h1 class="reader-title">LLMs, the brain, and whatever genuine intelligence is</h1>
+        
+    <p id="ember1074">
+      I’ve noticed an increase in posts that note some surprising or 
+insightful distinctions between intelligent agents (us) and large 
+language models (LLMs) [1]. The arguments go something like this [2]:
+    </p>
+
+            
+        
+    <p id="ember1075">
+      LLMs<span> </span><em>appear</em><span> </span>to be chatting with
+ us. They appear to be drawing connections, synthesizing the mountain of
+ information they've consumed with whatever prompt we just fed it. But 
+under the hood, LLMs are actually doing nothing more than predicting the
+ next chunk of text based on our prompt. They’re barely even predicting 
+words, and certainly not concepts, sentences, or any other linguistic 
+unit or abstraction humans might find intelligible. They’re predicting<span> </span><em>tokens</em>—units like characters or parts of a word that use high-dimensional vectors called<span> </span><a target="_self" href="https://en.wikipedia.org/wiki/Word_embedding" data-test-app-aware-link="">word embeddings</a><span> </span>that
+ can represent semantic relationships. These can even be added, 
+subtracted, or compared, revealing latent linguistic patterns (a well 
+known<span> </span><a target="_self" href="https://arxiv.org/abs/1901.09813" data-test-app-aware-link="">example</a><span> </span>is:
+ KING - MAN + WOMAN = QUEEN, or put another way: king is to man as ___ 
+is to woman). But this semantic arithmetic can't possibly constitute 
+understanding or intelligence. [3]
+    </p>
+
+
+
+              
+    <div>
+      <figure>
+    <div>
+    <p><img src="LLMs,%20the%20brain,%20and%20whatever%20genuine%20intelligence%20is%20_%20LinkedIn_files/1733266833972.png" alt="" id="ember1076" class="moz-reader-block-img">
+    </p>
+          </div>
+          <figcaption>
+            A simplified representation of the semantic relationship 
+between KING:MAN and QUEEN:WOMAN (University of Edinburgh, from Allen 
+and Hospedales, 2019)
+          </figcaption>
+      </figure>
+    </div>
+
+              
+    <div>
+      <figure>
+          
+    <div>
+    <p><img src="LLMs,%20the%20brain,%20and%20whatever%20genuine%20intelligence%20is%20_%20LinkedIn_files/1733404224036.png" alt="" id="ember1078" class="moz-reader-block-img" moz-reader-center="true">
+    </p>
+          </div>
+          <figcaption>
+            A token representation of the second paragraph of this 
+article. In particular, notice how "LLMs" is broken down in the first 
+and third lines.
+          </figcaption>
+      </figure>
+    </div>
+
+
+            
+        
+    <p id="ember1079">
+      This all sounds off beat and novel to us, certainly a far cry from
+ the natural language we’re familiar with in everyday interactions, 
+conversations, word problems, emails, you name it. If the point is to 
+distinguish between the token-crunching of LLMs and us, this line of 
+argument is effective at appropriately pointing out how surprising and 
+unintuitive LLMs’ linguistic fluency seems to be. But there are a couple
+ things missing here:
+    </p>
+
+
+    
+    <p id="ember1080">
+            </p><ol><li>What does the argument propose actually takes place in<span> </span><em>our</em><span> </span>brains when we compare, for example, KING:QUEEN, and</li><li>to what extent is that any more or less surprising than what happens when we hit &lt;RETURN&gt; in a ChatGPT window?</li></ol>
+
+    <p></p>
+            
+        
+    <p id="ember1081">
+      If LLM reasoning is so different and shocking to us,<span> </span><em>what are we actually comparing it to?</em><span> </span>What actually occurs if it's not something like a summing-up of a bunch of ones and zeros—neural spikes or<span> </span><a target="_self" href="https://www.ncbi.nlm.nih.gov/books/NBK538143/#:~:text=Introduction,the%20permeability%20of%20each%20ion." data-test-app-aware-link="">action potentials</a>,
+ the all-or-nothing electrical signals that convey information from 
+neuron to neuron? If we could pin down where the physical representation
+ of the phrase “a bunch of ones and zeros” across our neural cells is, 
+we might actually find that it looks a lot closer to tokens—and bits and
+ bytes—than to the English alphabet.
+    </p>
+
+
+              
+    <div>
+      <figure>
+          
+    <div>
+        
+    <p><img src="LLMs,%20the%20brain,%20and%20whatever%20genuine%20intelligence%20is%20_%20LinkedIn_files/1733267356501.gif" alt="" id="ember1082" class="moz-reader-block-img">
+    </p>
+          </div>
+          <figcaption>
+            An action potential, showing the rapid change in a cell 
+membrane's voltage potential, all-or-nothing signals that transmit 
+information in the nervous system.
+          </figcaption>
+      </figure>
+    </div>
+
+            
+        
+    <p id="ember1083">
+      It may be helpful to point out other unexpected examples of the 
+ways our brains might mirror machine learning based approaches to 
+information representation and processing. A couple illustrative 
+examples would be:
+    </p>
+
+            
+        
+    <p id="ember1084">
+            </p><ol><li><strong>Visual processing and pattern recognition</strong>.
+ Just as LLMs deconstruct text into tokens, the visual cortex breaks 
+down complex images hierarchically into more basic features like edges 
+and corners, colors and areas of contrast. Moreover, how our visual 
+processing system might perceive a face from a collection of edges and 
+corners, LLMs reconstruct meaning from tokens in a similar way. Both 
+human visual processing and LLMs rely on distributed representations 
+rather than by storing entire concepts in single, composed units.</li><li><strong>Semantic processing</strong>.
+ When we hear the word QUEEN, our brains activate not only a 
+QUEEN-cluster of neurons, but a distributed network of associated 
+features: CROWN, DIVA, WOMAN, and (for some of us) FREDDIE MERCURY. The 
+way we quickly understand analogies (KING:QUEEN::MAN:WOMAN) suggests 
+that our brains may use similar vector-like operations. Both systems 
+exhibit semantic priming, or an automatic activation of related concepts
+ based on proximity in some synaptic or semantic representation space.</li></ol>
+
+    <p></p>
+
+
+    
+    <p id="ember1085">
+      So there are at least a couple of ways that LLMs might mirror the 
+brain, but maybe not enough to convince anyone that there are 
+significant broader similarities. Okay. Then perhaps it's worth 
+exploring some of the stronger assertions made about LLMs shortcomings 
+to see what we're left with. Here are five:
+    </p>
+
+
+    
+    <p id="ember1086">
+      <strong>Assertion 1: LLMs lack genuine understanding</strong>. Many argue that LLMs merely<span> </span><em>simulate</em><span> </span>understanding through<span> </span><a target="_self" href="https://garymarcus.substack.com/p/llms-dont-do-formal-reasoning-and" data-test-app-aware-link="">statistical pattern matching</a>—they're<span> </span><a target="_self" href="https://dl.acm.org/doi/10.1145/3442188.3445922" data-test-app-aware-link="">stochastic parrots</a>!
+ But I'm not sure that we have any compelling evidence that human 
+understanding is all that different. When we seem to understand 
+something, aren't we pattern matching based on pre-wired circuits tuned 
+on prior experience? What we should ask are questions about the quality 
+and flexibility of pattern matching rather than whether or not it is 
+‘genuine’. And in the context of pattern matching, the question of 
+'genuine or not?' may not be a meaningful one to begin with. So perhaps 
+we need a stronger definition of ‘understanding’ before we dismiss LLMs’
+ capabilities.
+    </p>
+
+            
+        
+    <p id="ember1087">
+      <strong>Assertion 2: LLMs don’t have embodied knowledge</strong>. 
+True. LLMs clearly do not physically interact with the world, in 
+contrast to human experience—see Jeff Hawkins' excellent book,<span> </span><a target="_self" href="https://www.numenta.com/resources/books/a-thousand-brains-by-jeff-hawkins/" data-test-app-aware-link=""><em>A Thousand Brains</em></a>.
+ But a lot of human knowledge is acquired through language and abstract 
+symbols where, for example, domain experts almost exclusively 
+communicate in symbolic representation rather than embodied knowledge 
+(think of musicians reading orchestral scores, economists and supply and
+ demand curves, a linguist's syntax trees). Furthermore, our brains 
+actually have no direct access to the world. Instead, it receives a 
+flood of electrical signals from visual, auditory, olfactory, etc. 
+pathways. And those electrical signals (think again of the many ones and
+ zeros of action potentials, above) are computed and interpreted by our 
+brains, blockaded within our skulls, constructing a<span> </span><em>model</em><span> </span>of the world<span> </span><em>out there</em>. So these might be differences in degree rather than in kind.
+    </p>
+
+            
+        
+    <p id="ember1088">
+      <strong>Assertion 3: LLMs can’t update their knowledge in real-time</strong>.
+ To my mind, this is one of the most important differences between LLMs 
+and human knowledge. This difference speaks to how LLMs and brains 
+differ in<span> </span><em>adjusting</em><span> </span>representations which is a different question than the way in which each represent knowledge. Methods like<span> </span><a target="_self" href="https://cloud.google.com/use-cases/retrieval-augmented-generation" data-test-app-aware-link="">retrieval augmented generation</a><span> </span>(RAG)
+ get us just a little bit closer to addressing this, and model updating 
+is an active area of research in artificial intelligence right now. But 
+if we're willing to grant that the underlying mechanisms of learning are
+ similar, this may turn out to be a temporal difference—a difference in 
+time-scale and frequency rather than of substance.
+    </p>
+
+            
+        
+    <p id="ember1089">
+      <strong>Assertion 4: LLMs don’t have conscious experience</strong>. This will feel like an even heavier hitting argument than the last and one that virtually everyone will immediately<span> </span><em>get</em>. We<span> </span><em>know</em><span> </span>that
+ we are conscious and cannot imagine how an LLM could have a similar 
+experience. But consciousness is far from being a settled science—this 
+area is still dominated by philosophy of mind, and a reading of 
+heavy-weights like<span> </span><a target="_self" href="https://en.wikipedia.org/wiki/Consciousness_Explained" data-test-app-aware-link="">Daniel Dennett</a>,<span> </span><a target="_self" href="https://en.wikipedia.org/wiki/The_Conscious_Mind" data-test-app-aware-link="">David</a><span> </span><a target="_self" href="https://scholar.google.com/scholar_lookup?title=The%20conscious%20mind" data-test-app-aware-link="">Chalmers</a>,<span> </span><a target="_self" href="https://patriciachurchland.com/wp-content/uploads/2020/05/1983-Consciousness-the-Transmutation-of-Concept.pdf" data-test-app-aware-link="">Patricia Churchland</a>, or<span> </span><a target="_self" href="https://books.google.com/books?id=ZqsytrHg8LkC&amp;newbks=0&amp;hl=en&amp;source=newbks_fb" data-test-app-aware-link="">John Searle</a><span> </span>will
+ yield four very different takes on what consciousness even is. 
+Molecular biology has even less to say on this subject. Moreover, 
+whether consciousness relates to intelligence or knowledge is also 
+unclear. In fact, many examples of humans arriving at understanding 
+point to<span> </span><em>un</em>conscious processes (see Mlodinow's<span> </span><a target="_self" href="https://www.penguinrandomhouse.com/books/115698/subliminal-by-leonard-mlodinow/" data-test-app-aware-link=""><em>Subliminal</em></a><span> </span>or Kahnemann's<span> </span><a target="_self" href="https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow" data-test-app-aware-link=""><em>Thinking Fast and Slow</em></a>)—something Sigmund Freud<span> </span><a target="_self" href="https://www.sas.upenn.edu/~cavitch/pdf-library/Freud_Unconscious.pdf" data-test-app-aware-link="">observed</a><span> </span>over a century ago.
+    </p>
+
+                
+        
+    <p id="ember1090">
+      <strong>Assertion 5: LLMs hallucinate and make nonsensical mistakes humans would never make</strong>. Yes, well, maybe. Humans regularly make systematic errors in reasoning (Kahnemann’s<span> </span><a target="_self" href="https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow" data-test-app-aware-link=""><em>Thinking Fast and Slow</em></a><span> </span>gives
+ one of the most complete and insightful tours of all sorts of cognitive
+ errors). So perhaps differences between LLM hallucinations and errors 
+in human reasoning implicate architectural differences rather than more 
+fundamental ones. And if that’s the case, the errors that we observe in 
+each case might tell us more about the implementation details than about
+ fundamental differences in processing.
+    </p>
+
+
+    
+    <p id="ember1091">
+      Then on the other hand, there are many areas that LLMs<span> </span><em>are</em><span> </span>genuinely
+ lacking. For example, LLMs do not have memory or temporal consistency. 
+If you ask an LLM a question related to a previous conversation, it 
+won’t have any memory of what you’re talking about—in humans we call 
+this anterograde amnesia. Every interaction is a fresh conversation 
+without any learning across sessions. They can struggle with physical 
+causality. An LLM may be able to describe general relationships of 
+cause-and-effect, but they lack even the<span> </span><a target="_self" href="https://www.sciencedaily.com/releases/2012/01/120124113051.htm" data-test-app-aware-link="">physical intuition of an infant</a>, the intuitive physics that a human of average intelligence just<span> </span><em>gets</em>.
+ They don’t have goal-directed behavior. They lack internal drives or 
+motivation—an LLM will not lose interest in doing its taxes. LLMs don't 
+integrate information across multiple modalities. Yes,<span> </span><a target="_self" href="https://cloud.google.com/use-cases/multimodal-ai" data-test-app-aware-link="">multimodal models</a><span> </span>exist.
+ But they don’t synthesize information across those modalities in the 
+way that resembles what humans naturally do for visual, auditory, and 
+tactile senses. [4]
+    </p>
+
+              
+        
+    <p id="ember1092">
+      There are plenty of differences between computation in the brain 
+and in LLMs—e.g. how our brain compares what it receives to what it 
+expects (i.e. bidirectional feedforward/feedback connections in the 
+brain versus strictly feedforward LLMs), the networks of neurons that 
+come ‘pre-wired’ at birth (e.g.<span> </span><a target="_self" href="https://www.pnas.org/doi/full/10.1073/pnas.1911359117" data-test-app-aware-link="">visual processing pathways</a><span> </span>or<span> </span><a target="_self" href="https://www.nature.com/articles/s41598-020-75015-7" data-test-app-aware-link="">language acquisition circuits</a>).
+ But of all those differences, the representation of knowledge and 
+language may be one of the more superficial. And it may, on some 
+meaningful level, be more a point of similarity or insight than of 
+difference. We should not confuse<span> </span><em>surprising</em><span> </span>with<span> </span><em>unintelligent</em>. At least not on these grounds.
+    </p>
+
+  
+            
+  <hr>
+
+              
+    <div>
+      <figure>
+    <div>
+    <p><img src="LLMs,%20the%20brain,%20and%20whatever%20genuine%20intelligence%20is%20_%20LinkedIn_files/1733266769611.png" alt="" id="ember1093" class="moz-reader-block-img">
+    </p>
+          </div>
+          <figcaption>
+            https://www.xkcd.com/1527/
+          </figcaption>
+      </figure>
+    </div>
+
+
+            
+  <hr>
+
+            
+        
+    <h3 id="ember1094">
+      Notes:
+    </h3>
+            
+        
+    <p id="ember1095">
+            </p><ol><li>Many of the posts that make these claims cite Apple researchers,<span> </span><a target="_self" href="https://arxiv.org/html/2410.05229v1" data-test-app-aware-link="">Mirzadeh et al., 2024</a><span> </span>either
+ directly or second-hand. While a lot of the arguments I've listed here 
+are touched on in the paper, their handling of the subject of 
+intelligence is predictably more nuanced than most of the online posts 
+that find LLMs to be disappointing. For example, while the paper 
+deemphasizes the significance of tokenization, the authors highlight how
+ token-based representation can contribute to fragility of reasoning. In
+ other words, the sensitivity to changes in numerical values, even when 
+the underlying mathematical concept remains unchanged, suggests that the
+ token-level representation plays a more significant role than I've 
+implied. But rather than being a fundamental difference, it might point 
+to a difference in implementation details. After all, humans seem to 
+excel at forming strong opinions in spite of less than adequate 
+information (Google: conspiracy theories). The paper also devotes 
+considerable effort to describing the ways that LLMs rely on 
+probabilistic pattern matching, ways in which they lack true 
+understanding, and the different types of reasoning error or 
+hallucination.</li><li>A few examples of these arguments<span> </span><a target="_self" href="https://www.linkedin.com/posts/mpknapp_chatgpt-ai-activity-7264420954846474240-F3mN" data-test-app-aware-link="">here</a>,<span> </span><a target="_self" href="https://www.linkedin.com/posts/ramiro-e-68619a55_is-this-a-surprise-for-everyone-cmon-even-activity-7268120640878993408-BZdP?utm_source=share&amp;utm_medium=member_desktop" data-test-app-aware-link="">here</a>, and<span> </span><a target="_self" href="https://www.linkedin.com/posts/rheimann_this-is-a-cringeworthy-clip-of-scott-aaronson-ugcPost-7194699482410663936-FuO9?utm_source=share&amp;utm_medium=member_desktop" data-test-app-aware-link="">here</a>.</li><li>Carnegie Mellon University's CS program provides an accessible<span> </span><a target="_self" href="https://www.cs.cmu.edu/~dst/WordEmbeddingDemo/tutorial.html" data-test-app-aware-link="">tutorial</a><span> </span>of
+ word embeddings that describes semantic relationships, first, in a 
+two-dimensional feature space before progressing into higher dimensions.
+ It then goes on to describe ways that semantic feature space 
+representations permits distance measurements between individual word 
+embeddings. Jay Alammar's<span> </span><a target="_self" href="https://jalammar.github.io/illustrated-word2vec/" data-test-app-aware-link="">The Illustrated Word2vec</a><span> </span>is another useful tutorial.</li><li>The problem of integrating different sensory modalities is known in cognitive psychology and computational neuroscience as<span> </span><em>the binding problem</em><span> </span>(<a target="_self" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3538094/" data-test-app-aware-link="">Feldman, 2012</a>,<span> </span><a target="_self" href="https://arxiv.org/abs/2012.05208" data-test-app-aware-link="">Greff et al., 2020</a>),
+ a problem that applies differently to artificial neural networks. In 
+human perception, its goal is to understand how various stimuli encoded 
+in different regions of the brain accrue to an integrated experience 
+rather than a disjointed, disintegrated one.</li></ol>
+
+    <p></p>
+
+
+      </div></div></div>
+      </div>
+
+      <div>
+        <div class="reader-message"></div>
+      </div>
+      <div aria-owns="toolbar"></div>
+    </div>
+  
+
+</body></html>
