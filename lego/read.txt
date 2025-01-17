@@ -127,9 +127,10 @@ aa135|The Age of Insight: The Quest to Understand the Unconscious in Art, Mind, 
 aa134|In Search of Memory|Eric R. Kandel|2007|paperback|neuroscience autobiography wwii|2024-12-05
 aa136|A Brief History of Everyone Who Ever Lived: The Human Story Retold Through Our Genes|Adam Rutherford|2017|Libby|genetics genomics evolutionary biology|2024-12-18
 aa138|The Runaway Species|Anthony Brandt; David Eagleman|2017|Libby|neuroscience anthropology art creativity|2024-12-22
+aa141|Our Mathematical Universe|Max Tegmark|2014|Libby|cosmology physics quantum physics mathematics science|2025-01-16
+aa140|Pale Fire|Vladimir Nabokov|1962|paperback|fiction|2025-01-17
+aa142|Time Travel: A History|James Gleick|2016|Libby|time|2024-99-99
 aa139|The Genetic Book of the Dead: A Darwinian Reverie|Richard Dawkins|2024|hardcover|genetics evolutionary biology science|2025-99-99
-aa140|Pale Fire|Vladimir Nabokov|1962|paperback|fiction|2025-99-99
-aa141|Out Mathematical Universe|Max Tegmark|2014|Libby|cosmology physics quantum physics mathematics science|2025-99-99
 aa137|The Mind Doesn't Work That Way: The Scope and Limits of Computational Psychology|Jerry A. Fodor|2001|hardcover|philosophy mind computational neuroscience psychology|2025-99-99
 aa129|The Science of Can and Can't: A Physicist's Journey through the Land of Counterfactuals|Chiara Marletto|2021|paperback|physics counterfactuals science|2025-99-99
 aa120|Being You: A New Science of Consciousness|Anil Seth|2021|Libby|consciousness neuroscience|
