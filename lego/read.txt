@@ -129,6 +129,8 @@ aa136|A Brief History of Everyone Who Ever Lived: The Human Story Retold Through
 aa138|The Runaway Species|Anthony Brandt; David Eagleman|2017|Libby|neuroscience anthropology art creativity|2024-12-22
 aa141|Our Mathematical Universe|Max Tegmark|2014|Libby|cosmology physics quantum physics mathematics science|2025-01-16
 aa140|Pale Fire|Vladimir Nabokov|1962|paperback|fiction|2025-01-17
+aa143|The Iliad|Homer, tr. Emily Wilson|2023|paperback|fiction greek mythology|2025-99-99
+aa144|Orbital|Samantha Harvey|2024|paperback|space fiction sci-fi science fiction|2025-99-99
 aa142|Time Travel: A History|James Gleick|2016|Libby|time|2024-99-99
 aa139|The Genetic Book of the Dead: A Darwinian Reverie|Richard Dawkins|2024|hardcover|genetics evolutionary biology science|2025-99-99
 aa137|The Mind Doesn't Work That Way: The Scope and Limits of Computational Psychology|Jerry A. Fodor|2001|hardcover|philosophy mind computational neuroscience psychology|2025-99-99
