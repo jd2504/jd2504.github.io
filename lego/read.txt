@@ -129,10 +129,11 @@ aa136|A Brief History of Everyone Who Ever Lived: The Human Story Retold Through
 aa138|The Runaway Species|Anthony Brandt; David Eagleman|2017|Libby|neuroscience anthropology art creativity|2024-12-22
 aa141|Our Mathematical Universe|Max Tegmark|2014|Libby|cosmology physics quantum physics mathematics science|2025-01-16
 aa140|Pale Fire|Vladimir Nabokov|1962|paperback|fiction|2025-01-17
+aa142|Time Travel: A History|James Gleick|2016|Libby|time|2025-01-24
+aa145|What an Owl Knows|Jennifer Ackerman|2023|Libby|zoology|2025-99-99
+aa100|The Alignment Problem|Brian Christian|2020|paperback|artificial intelligence control problem alignment|2025-99-99
 aa143|The Iliad|Homer, tr. Emily Wilson|2023|paperback|fiction greek mythology|2025-99-99
 aa144|Orbital|Samantha Harvey|2024|paperback|space fiction sci-fi science fiction|2025-99-99
-aa142|Time Travel: A History|James Gleick|2016|Libby|time|2025-99-99
-aa145|What an Owl Knows|Jennifer Ackerman|2023|Libby|zoology|2025-99-99
 aa139|The Genetic Book of the Dead: A Darwinian Reverie|Richard Dawkins|2024|hardcover|genetics evolutionary biology science|2025-99-99
 aa137|The Mind Doesn't Work That Way: The Scope and Limits of Computational Psychology|Jerry A. Fodor|2001|hardcover|philosophy mind computational neuroscience psychology|2025-99-99
 aa129|The Science of Can and Can't: A Physicist's Journey through the Land of Counterfactuals|Chiara Marletto|2021|paperback|physics counterfactuals science|2025-99-99
@@ -140,7 +141,6 @@ aa120|Being You: A New Science of Consciousness|Anil Seth|2021|Libby|consciousne
 aa097|The Conscious Mind|David J. Chalmers|1997|paperback|consciousness philosophy|2025-99-99
 aa107|A History of Christianity: The First Three Thousand Years|Diarmaid MacCulloch|2009|paperback|christianity religion history catholicism judaism islam|2025-99-99
 aa105|Lessons|Ian McEwan|2022|hardcover|fiction|
-aa100|The Alignment Problem|Brian Christian|2020|paperback|artificial intelligence control problem alignment|2025-99-99
 aa099|Intuition Pumps and Other Tools for Thinking|Daniel C. Dennett|2014|paperback|philosophy|
 aa101|God: The Most Unpleasant Character in All Fiction|Dan Barker|2016|Libby|christianity religion bible|
 aa108|Determined|Robert M. Sapolsky|2023|hardback|determinism neuroscience free will philosophy biology|
