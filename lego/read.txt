@@ -130,7 +130,7 @@ aa138|The Runaway Species|Anthony Brandt; David Eagleman|2017|Libby|neuroscience
 aa141|Our Mathematical Universe|Max Tegmark|2014|Libby|cosmology physics quantum physics mathematics science|2025-01-16
 aa140|Pale Fire|Vladimir Nabokov|1962|paperback|fiction|2025-01-17
 aa142|Time Travel: A History|James Gleick|2016|Libby|time|2025-01-24
-aa145|What an Owl Knows|Jennifer Ackerman|2023|Libby|zoology ecology owls|2025-99-99
+aa145|What an Owl Knows|Jennifer Ackerman|2023|Libby|zoology ecology owls|2025-01-28
 aa100|The Alignment Problem|Brian Christian|2020|paperback|artificial intelligence control problem alignment|2025-99-99
 aa143|The Iliad|Homer, tr. Emily Wilson|2023|paperback|fiction greek mythology|2025-99-99
 aa144|Orbital|Samantha Harvey|2024|paperback|space fiction sci-fi science fiction|2025-99-99
