@@ -132,7 +132,8 @@ aa140|Pale Fire|Vladimir Nabokov|1962|paperback|fiction|2025-01-17
 aa142|Time Travel: A History|James Gleick|2016|Libby|time|2025-01-24
 aa145|What an Owl Knows|Jennifer Ackerman|2023|Libby|zoology ecology owls|2025-01-28
 aa147|Journey to the Edge of Reason: The Life of Kurt Gödel|Stephen Budiansky|2021|Libby|godel history mathematics|2025-02-03
-aa148|The Hidden Lives of Owls|Leigh Calvez|2017|Libby|zoology ecology owls|2025-99-99
+aa148|The Hidden Lives of Owls|Leigh Calvez|2017|Libby|zoology ecology owls|2025-02-04
+aa149|When Einstein Walked with Gödel|Jim Holt|2018|Libby|mathematics logic physics philosophy|2025-99-99
 
 aa139|The Genetic Book of the Dead: A Darwinian Reverie|Richard Dawkins|2024|hardcover|genetics evolutionary biology science|2025-99-99
 aa146|The Tragedy of Liberation: A History of the Chinese Revolution 1945-1957|Frank Dikötter|2013|Libby|cultural revolution china mao communism|2025-99-99

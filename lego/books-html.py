@@ -26,7 +26,7 @@ def create_link(readid):
     github_txt_path = f"{github_path}{readid}.txt"
     github_pdf_path = f"{github_path}{readid}.pdf"
 
-    # Check in priority order: html > txt > pdf
+    # check in priority order: html > txt > pdf
     if os.path.exists(html_path):
         return f'<a href="{github_html_path}">{readid}</a>'
     elif os.path.exists(txt_path):
