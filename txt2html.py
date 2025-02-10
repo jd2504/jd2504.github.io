@@ -5,12 +5,20 @@ from typing import TextIO
 
 
 def create_html_header(title: str) -> str:
-    return f"""<!DOCTYPE html>
+    return """<!DOCTYPE html>
     <html lang="en">
     <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RWPLPJ3ZCL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RWPLPJ3ZCL');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{title}</title>
+
     <style>
         body {{
             font-family: Arial, sans-serif;
