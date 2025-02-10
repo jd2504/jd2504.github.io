@@ -1,0 +1,19 @@
+When Einstein Walked with Gödel, Holt J., 2018
+
+What ground doesn't this cover?
+
+“All these ideas come with flesh-and-blood progenitors who led highly dramatic lives. Often these lives contain an element of absurdity.” Most of these essays center around one major figure or another. When Einstein... has been on the list which the Budiansky bio reminded me of.
+
+"The mental skills we sacrifice may be as valuable, or even more valuable, than the ones we gain. When it comes to the quality of our thought, our neurons and synapses are entirely indifferent. The possibility of intellectual decay is inherent in the malleability of our brains." - Carr N., The Shallows, p. 35
+
+"Real stupidity beats artificial intelligence every time." - Terry Pratchett
+
+The question that Holt asks (and that Nicholas Carr neglects to ask) is: Why is it better to knock information into your head than to get it off the web? Carr's sibling Atlantic pieces, "Is Google Making Us Stupid?" and its recent follow up, "Is the Internet Making Us Stupid?" makes the argument that the cognitive offloading that Google and the internet affords us is to our detriment, diminishing our experience as human beings. Human memory, it's argued, is dynamic, unlike machine memory. Maybe. The brain certainly updates differently than LLMs. But that might not say as much as we think. By pointing to the dynamics of memory (human or machine) we are talking about the differences in memory over time rather than any architectural or procedural differences in its storage or retrieval, how one thought, memory, or behavior wins in the cognitive jousting match that gives rise to one thought over another, one behavior or another. William James averred that the connecting is the thinking: "...when we wish to fix a new thing in either our own mind or a pupil's, our conscious effort should not be so much to impress and retain it as to connect it with something else already there. The connecting is the thinking; and if we attend clearly to the connection, the connected thing will certainly be likely to remain within recall." Billions of parameters, vector search operations, attention mechanisms, are what enable modern language models to make exactly those novel connections that we prize in our own thought, and continue to find surprising in large language models.
+
+Carr has gone to extremes to, personally, revert to something close to a pre-internet era, reducing his email inbox retrieval to hourly among other tricks. I've been tempted to buy a $20 Nokia for a while but, for one reason or another haven't pulled the trigger. The one thing that I have no misgivings in exercising self-restraint, if not abstinence, in is social media (though I haven't quite kicked LinkedIn yet). I can't imagine conflictedness about technological advancement being much younger than our species. While I have little doubt that social media's current iteration is, on balance, a negative force, human thriving has increased exponentially as we've offloaded more and more to technology. Social media probably doesn't contribute much to that, but still. Does Google make us stupid? Does the internet make us stupid? For all of the facts, equations, Python function parameters, Shakespeare and Auden I can't recall on command, I can recall what I would 'like' to recall and have the means to do so in the internet. Does that makes me stupider? Perhaps. If my recall functions more like an index than an encyclopaedia, that might be a good thing.
+
+
+Further reading:
+- The Shallows, Carr N.
+- Is the Internet Making Us Stupid? Carr N. 2025, The Atlantic [https://www.theatlantic.com/newsletters/archive/2025/01/nicholas-carr-is-the-internet-making-us-stupid/681517/]
+- Is Google Making Us Stupid? Carr N. 2008, The Atlantic [https://www.theatlantic.com/magazine/archive/2008/07/is-google-making-us-stupid/306868/]
