@@ -135,7 +135,7 @@ aa147|Journey to the Edge of Reason: The Life of Kurt Gödel|Stephen Budiansky|2
 aa148|The Hidden Lives of Owls|Leigh Calvez|2017|Libby|zoology ecology owls|2025-02-04
 aa149|When Einstein Walked with Gödel|Jim Holt|2018|Libby|mathematics logic physics philosophy|2025-02-09
 aa150|How Innovation Works|Matt Ridley|2020|Libby|innovation freedom|2025-02-17
-aa151|The Coming Wave: Technology, Power, and the Twenty-first Century's Greatest Dilemma|Mustafa Suleyman|2023|Libby|artificial intelligence|2025-99-99
+aa151|The Coming Wave: Technology, Power, and the Twenty-first Century's Greatest Dilemma|Mustafa Suleyman|2023|Libby|artificial intelligence containment regulation|2025-02-25
 
 aa144|Orbital|Samantha Harvey|2024|paperback|space fiction sci-fi science fiction|2025-99-99
 aa139|The Genetic Book of the Dead: A Darwinian Reverie|Richard Dawkins|2024|hardcover|genetics evolutionary biology science|2025-99-99
