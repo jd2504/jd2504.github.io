@@ -1,0 +1,11 @@
+The Coming Wave, Suleyman M., 2023
+
+The wave of artificial intelligence is inevitable, distributed in provenance, and warrants deep concern, so brace yourself.
+
+"The coming wave is defined by two core technologies: artificial intelligence (AI) and synthetic biology."
+
+"Almost every foundational technology ever invented, from pickaxes to plows, pottery to photography, phones to planes, and everything in between, follows a single, seemingly immutable law: it gets cheaper and easier to use, and ultimately it proliferates, far and wide."
+
+From roughly the same starting point, using many from the same lineup of usual innovation suspects and their interpretations, this book's setup ultimately lands far afield of Ridley's conclusions in How Innovation Works. Ridley describes the distributed quality of innovation, where no one individual can be said to be responsible for the latest thing. Suleyman uses the similar analogy of a wave to explain distributed technological innovations as a way to understand the coming A.I. wave's impending crash, inescapably washing over society and culture. Rather than being an irresistable positive force, Suleyman instead uses the analogy to warn of the dangers of artificial intelligence's containment problem. While Nick Bostrom, Max Tegmark and others have done a better job of describing the urgency surrounding AI containment, Suleyman spends the last chapter outlining paths forward and possible regulatory frameworks. Whatever you make of his conclusion, Suleyman has been working on this stuff for as long as anyone and is a voice worth listening to. When is Yann LeCun going to write a book?
+
+A brief moment while Suleyman surveys possible futures, he mentions Peter Thiel's technolibertarian vision of tomorrow, unbounded by historical nation-states where traditional means of access to public goods and services wither away to make room for decentralized alternatives to take their place. This at least seems to perfectly describe the chaos tsunami that Elon Musk and DOGE have set in motion.
