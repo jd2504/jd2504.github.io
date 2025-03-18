@@ -140,7 +140,7 @@ aa152|Prisoner's Dilemma|William Poundstone|1993|Libby|game theory philosophy et
 aa154|Stone Blind|Natalie Haynes|2023|paperback|medusa greek mythology retelling|2025-03-08
 aa144|Orbital|Samantha Harvey|2024|paperback|space fiction sci-fi science fiction|2025-03-09
 aa153|War|Bob Woodward|2024|Libby|biden trump politics ukraine israel|2025-03-11
-aa155|Patient H.M.: A Story of Memory, Madness, and Family Secrets|Luke Dittrich|2017|neuroscience memoir amnesic lobotomy lobectomy memory|2025-03-17
+aa155|Patient H.M.: A Story of Memory, Madness, and Family Secrets|Luke Dittrich|2017|Libby|neuroscience memoir amnesic lobotomy lobectomy memory|2025-03-17
 aa120|Being You: A New Science of Consciousness|Anil Seth|2021|Libby|consciousness neuroscience|2025-99-99
 
 aa139|The Genetic Book of the Dead: A Darwinian Reverie|Richard Dawkins|2024|hardcover|genetics evolutionary biology science|2025-99-99
