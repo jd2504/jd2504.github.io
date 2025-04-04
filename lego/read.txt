@@ -143,12 +143,15 @@ aa153|War|Bob Woodward|2024|Libby|biden trump politics ukraine israel|2025-03-11
 aa155|Patient H.M.: A Story of Memory, Madness, and Family Secrets|Luke Dittrich|2017|Libby|neuroscience memoir amnesic lobotomy lobectomy memory|2025-03-17
 aa156|The Cockroach|Ian McEwan|2019|paperback|satire brexit metamorphosis|2025-03-26
 aa120|Being You: A New Science of Consciousness|Anil Seth|2021|Libby|consciousness neuroscience|2025-03-27
-aa157|Wired For Story|Lisa Cron|2017|Libby|writing cognitive science narrative|2025-99-99
+aa157|Wired For Story|Lisa Cron|2017|Libby|writing cognitive science narrative|2025-04-01
 
+aa158|How Emotions are Made: The Secret Life of the Brain|Lisa Feldman Barrett|2017|neuroscience emotions psychology|2025-99-99
+aa159|The Joy of X|Steven Strogatz|2019|Libby|mathematics algebra calculus numbers|2025-99-99
 aa139|The Genetic Book of the Dead: A Darwinian Reverie|Richard Dawkins|2024|hardcover|genetics evolutionary biology science|2025-99-99
 aa146|The Tragedy of Liberation: A History of the Chinese Revolution 1945-1957|Frank Dikötter|2013|Libby|cultural revolution china mao communism|2025-99-99
 aa143|The Iliad|Homer, tr. Emily Wilson|2023|paperback|fiction greek mythology|2025-99-99
 aa100|The Alignment Problem|Brian Christian|2020|paperback|artificial intelligence control problem alignment|2025-99-99
+
 aa107|A History of Christianity: The First Three Thousand Years|Diarmaid MacCulloch|2009|paperback|christianity religion history catholicism judaism islam|2025-99-99
 aa137|The Mind Doesn't Work That Way: The Scope and Limits of Computational Psychology|Jerry A. Fodor|2001|hardcover|philosophy mind computational neuroscience psychology|2099-99-99
 aa129|The Science of Can and Can't: A Physicist's Journey through the Land of Counterfactuals|Chiara Marletto|2021|paperback|physics counterfactuals science|2025-99-99
