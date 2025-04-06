@@ -144,9 +144,10 @@ aa155|Patient H.M.: A Story of Memory, Madness, and Family Secrets|Luke Dittrich
 aa156|The Cockroach|Ian McEwan|2019|paperback|satire brexit metamorphosis|2025-03-26
 aa120|Being You: A New Science of Consciousness|Anil Seth|2021|Libby|consciousness neuroscience|2025-03-27
 aa157|Wired For Story|Lisa Cron|2017|Libby|writing cognitive science narrative|2025-04-01
+aa159|The Joy of X|Steven Strogatz|2019|Libby|mathematics algebra calculus numbers|2025-04-03
+aa160|Franklin & Washington: The Founding Partnership|Edward J. Larson|2020|Libby|american history revolution founding fathers|2025-99-99
 
 aa158|How Emotions are Made: The Secret Life of the Brain|Lisa Feldman Barrett|2017|neuroscience emotions psychology|2025-99-99
-aa159|The Joy of X|Steven Strogatz|2019|Libby|mathematics algebra calculus numbers|2025-99-99
 aa139|The Genetic Book of the Dead: A Darwinian Reverie|Richard Dawkins|2024|hardcover|genetics evolutionary biology science|2025-99-99
 aa146|The Tragedy of Liberation: A History of the Chinese Revolution 1945-1957|Frank Dikötter|2013|Libby|cultural revolution china mao communism|2025-99-99
 aa143|The Iliad|Homer, tr. Emily Wilson|2023|paperback|fiction greek mythology|2025-99-99
