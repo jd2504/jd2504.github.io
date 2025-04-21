@@ -148,6 +148,7 @@ aa159|The Joy of X|Steven Strogatz|2019|Libby|mathematics algebra calculus numbe
 aa160|Franklin & Washington: The Founding Partnership|Edward J. Larson|2020|Libby|american history revolution founding fathers|2025-04-11
 aa139|The Genetic Book of the Dead: A Darwinian Reverie|Richard Dawkins|2024|hardcover|genetics evolutionary biology science|2025-04-12
 aa161|A Book About Love|Jonah Lehrer|2016|Libby|love neuroscience|2025-99-99
+aa162|The Consciousness Instinct|Michael S. Gazzaniga|2018|paperback|neuroscience consciousness mind|2025-99-99
 
 aa158|How Emotions are Made: The Secret Life of the Brain|Lisa Feldman Barrett|2017|neuroscience emotions psychology|2025-99-99
 aa146|The Tragedy of Liberation: A History of the Chinese Revolution 1945-1957|Frank Dikötter|2013|Libby|cultural revolution china mao communism|2025-99-99
