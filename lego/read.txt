@@ -148,7 +148,7 @@ aa159|The Joy of X|Steven Strogatz|2019|Libby|mathematics algebra calculus numbe
 aa160|Franklin & Washington: The Founding Partnership|Edward J. Larson|2020|Libby|american history revolution founding fathers|2025-04-11
 aa139|The Genetic Book of the Dead: A Darwinian Reverie|Richard Dawkins|2024|hardcover|genetics evolutionary biology science|2025-04-12
 aa161|A Book About Love|Jonah Lehrer|2016|Libby|love neuroscience|2025-04-23
-aa163|The Shallows|Nicholas Carr|2010|Libby|internet neuroscience|2025-04-26
+aa163|The Shallows: What the Internet is Doing to Our Brains|Nicholas Carr|2010|Libby|internet neuroscience|2025-04-26
 aa164|The Great Divorce|C. S. Lewis|1945|Libby|christianity hell heaven fiction|2025-04-29
 aa165|The Abolition of Man|C. S. Lewis|1943|Libby|christianity education morality|2025-04-30
 aa166|Hillbilly Elegy|J. D. Vance|2016|Libby|memoir appalachia poverty|2025-99-99
