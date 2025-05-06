@@ -151,18 +151,19 @@ aa161|A Book About Love|Jonah Lehrer|2016|Libby|love neuroscience|2025-04-23
 aa163|The Shallows: What the Internet is Doing to Our Brains|Nicholas Carr|2010|Libby|internet neuroscience|2025-04-26
 aa164|The Great Divorce|C. S. Lewis|1945|Libby|christianity hell heaven fiction|2025-04-29
 aa165|The Abolition of Man|C. S. Lewis|1943|Libby|christianity education morality|2025-04-30
-aa166|Hillbilly Elegy|J. D. Vance|2016|Libby|memoir appalachia poverty|2025-99-99
-aa162|The Consciousness Instinct|Michael S. Gazzaniga|2018|paperback|neuroscience consciousness mind|2025-99-99
+aa166|Hillbilly Elegy|J. D. Vance|2016|Libby|memoir appalachia poverty|2025-05-06
+aa167|Until The End of Time|Brian Greene|2020|Libby|cosmology astrophysics life consciousness|2025-99-99
 
 aa158|How Emotions are Made: The Secret Life of the Brain|Lisa Feldman Barrett|2017|neuroscience emotions psychology|2025-99-99
 aa146|The Tragedy of Liberation: A History of the Chinese Revolution 1945-1957|Frank Dikötter|2013|Libby|cultural revolution china mao communism|2025-99-99
+aa162|The Consciousness Instinct|Michael S. Gazzaniga|2018|paperback|neuroscience consciousness mind|2025-99-99
+
 aa143|The Iliad|Homer, tr. Emily Wilson|2023|paperback|fiction greek mythology|2025-99-99
 aa100|The Alignment Problem|Brian Christian|2020|paperback|artificial intelligence control problem alignment|2025-99-99
-
-aa107|A History of Christianity: The First Three Thousand Years|Diarmaid MacCulloch|2009|paperback|christianity religion history catholicism judaism islam|2025-99-99
-aa137|The Mind Doesn't Work That Way: The Scope and Limits of Computational Psychology|Jerry A. Fodor|2001|hardcover|philosophy mind computational neuroscience psychology|2099-99-99
 aa129|The Science of Can and Can't: A Physicist's Journey through the Land of Counterfactuals|Chiara Marletto|2021|paperback|physics counterfactuals science|2025-99-99
 
+aa137|The Mind Doesn't Work That Way: The Scope and Limits of Computational Psychology|Jerry A. Fodor|2001|hardcover|philosophy mind computational neuroscience psychology|2099-99-99
+aa107|A History of Christianity: The First Three Thousand Years|Diarmaid MacCulloch|2009|paperback|christianity religion history catholicism judaism islam|2099-99-99
 aa097|The Conscious Mind|David J. Chalmers|1997|paperback|consciousness philosophy|2099-99-99
 aa105|Lessons|Ian McEwan|2022|hardcover|fiction|2099-99-99
 aa099|Intuition Pumps and Other Tools for Thinking|Daniel C. Dennett|2014|paperback|philosophy|2099-99-99
