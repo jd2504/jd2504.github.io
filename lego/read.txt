@@ -167,6 +167,7 @@ aa176|My Name Is Emilia Del Valle|Isabel Allende|2025|hardcover|historical ficti
 aa181|Abundance|Ezra Klein & Derek Thompson|2025|Libby|liberal politics economics policy|2025-10-17
 aa179|SPQR|Mary Beard|2016|Libby|roman history rome|2025-10-20
 aa180|The Corrections|Jonathan Franzen|2001|paperback|fiction|2025-12-06
+aa183|Flesh|David Szalay|2025|hardcover|fiction|2025-12-30
 aa182|Brighton Rock|Graham Greene|1938|paperback|fiction|2025-99-99
 aa158|How Emotions are Made: The Secret Life of the Brain|Lisa Feldman Barrett|2017|neuroscience emotions psychology|2025-99-99
 
