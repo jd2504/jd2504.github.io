@@ -168,16 +168,16 @@ aa181|Abundance|Ezra Klein & Derek Thompson|2025|Libby|liberal politics economic
 aa179|SPQR|Mary Beard|2016|Libby|roman history rome|2025-10-20
 aa180|The Corrections|Jonathan Franzen|2001|paperback|fiction|2025-12-06
 aa183|Flesh|David Szalay|2025|hardcover|fiction|2025-12-30
-aa182|Brighton Rock|Graham Greene|1938|paperback|fiction|2025-99-99
-aa158|How Emotions are Made: The Secret Life of the Brain|Lisa Feldman Barrett|2017|neuroscience emotions psychology|2025-99-99
+aa182|Brighton Rock|Graham Greene|1938|paperback|fiction|2026-01-02
+aa158|How Emotions are Made: The Secret Life of the Brain|Lisa Feldman Barrett|2017|neuroscience emotions psychology|2026-01-03
 
-aa146|The Tragedy of Liberation: A History of the Chinese Revolution 1945-1957|Frank Dikötter|2013|Libby|cultural revolution china mao communism|2025-99-99
-aa143|The Iliad|Homer, tr. Emily Wilson|2023|paperback|fiction greek mythology|2025-99-99
+aa146|The Tragedy of Liberation: A History of the Chinese Revolution 1945-1957|Frank Dikötter|2013|Libby|cultural revolution china mao communism|2026-99-99
+aa143|The Iliad|Homer, tr. Emily Wilson|2023|paperback|fiction greek mythology|2026-99-99
 
-aa162|The Consciousness Instinct|Michael S. Gazzaniga|2018|paperback|neuroscience consciousness mind|2025-99-99
+aa162|The Consciousness Instinct|Michael S. Gazzaniga|2018|paperback|neuroscience consciousness mind|2026-99-99
 
-aa100|The Alignment Problem|Brian Christian|2020|paperback|artificial intelligence control problem alignment|2025-99-99
-aa129|The Science of Can and Can't: A Physicist's Journey through the Land of Counterfactuals|Chiara Marletto|2021|paperback|physics counterfactuals science|2025-99-99
+aa100|The Alignment Problem|Brian Christian|2020|paperback|artificial intelligence control problem alignment|2026-99-99
+aa129|The Science of Can and Can't: A Physicist's Journey through the Land of Counterfactuals|Chiara Marletto|2021|paperback|physics counterfactuals science|2026-99-99
 
 aa137|The Mind Doesn't Work That Way: The Scope and Limits of Computational Psychology|Jerry A. Fodor|2001|hardcover|philosophy mind computational neuroscience psychology|2099-99-99
 aa107|A History of Christianity: The First Three Thousand Years|Diarmaid MacCulloch|2009|paperback|christianity religion history catholicism judaism islam|2099-99-99
