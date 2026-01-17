@@ -170,6 +170,7 @@ aa180|The Corrections|Jonathan Franzen|2001|paperback|fiction|2025-12-06
 aa183|Flesh|David Szalay|2025|hardcover|fiction|2025-12-30
 aa182|Brighton Rock|Graham Greene|1938|paperback|fiction|2026-01-02
 aa158|How Emotions are Made: The Secret Life of the Brain|Lisa Feldman Barrett|2017|neuroscience emotions psychology|2026-01-03
+aa184|The Power and the Glory|Graham Greene|1940|fiction|2025-01-16
 
 aa146|The Tragedy of Liberation: A History of the Chinese Revolution 1945-1957|Frank Dikötter|2013|Libby|cultural revolution china mao communism|2026-99-99
 aa143|The Iliad|Homer, tr. Emily Wilson|2023|paperback|fiction greek mythology|2026-99-99
