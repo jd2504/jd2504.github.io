@@ -14,11 +14,7 @@ fi
 input_file="$1"
 output_file="${input_file%.*}.html"
 
-input_file="$1"
-output_file="${input_file%.*}.html"
 
-
-cat > "$output_file" << HTML_HEADER
 cat > "$output_file" << HTML_HEADER
 <!DOCTYPE html>
 <html lang="en">
