@@ -173,7 +173,7 @@ aa158|How Emotions are Made: The Secret Life of the Brain|Lisa Feldman Barrett|2
 aa184|The Power and the Glory|Graham Greene|1940|paperback|fiction|2026-01-16
 aa189|The Running Ground|Nick Thompson|2025|hardcover|memoir running sports|2026-02-21
 aa186|The Book of Why|Judea Pearl|2018|paperback|computer science statistics artificial intelligence|2026-99-99
-aa185|107 Days|Kamala Harris|2025|Libby|politics history|2026-99-99
+aa185|107 Days|Kamala Harris|2025|Libby|politics history elections|2026-03-02
 aa187|Waking Up|Sam Harris|2014|paperback|meditation religion spirituality|2026-99-99
 aa188|Let Me Be Real With You|2025|hardcover|memoir rowing sports|2026-99-99
 
