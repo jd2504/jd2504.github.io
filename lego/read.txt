@@ -174,6 +174,8 @@ aa184|The Power and the Glory|Graham Greene|1940|paperback|fiction|2026-01-16
 aa189|The Running Ground|Nick Thompson|2025|hardcover|memoir running sports|2026-02-21
 aa185|107 Days|Kamala Harris|2025|Libby|politics history elections|2026-03-02
 aa190|The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma|Bessel van der Kolk|2014|Libby|psychology psychiatry trauma mind neuroscience|2026-03-24
+aa191|The Anxious Generation|Jonathan Haidt|2024|Libby|social science psychology social media mental health|2026-04-06
+aa107|A History of Christianity: The First Three Thousand Years|Diarmaid MacCulloch|2009|paperback|christianity religion history catholicism judaism islam|2099-99-99
 aa186|The Book of Why|Judea Pearl|2018|paperback|computer science statistics artificial intelligence|2026-99-99
 aa187|Waking Up|Sam Harris|2014|paperback|meditation religion spirituality|2026-99-99
 aa188|Let Me Be Real With You|Arshay Cooper|2025|hardcover|memoir rowing sports|2026-99-99
@@ -183,12 +185,10 @@ aa146|The Tragedy of Liberation: A History of the Chinese Revolution 1945-1957|F
 aa143|The Iliad|Homer, tr. Emily Wilson|2023|paperback|fiction greek mythology|2026-99-99
 
 aa162|The Consciousness Instinct|Michael S. Gazzaniga|2018|paperback|neuroscience consciousness mind|2026-99-99
-
 aa100|The Alignment Problem|Brian Christian|2020|paperback|artificial intelligence control problem alignment|2026-99-99
 aa129|The Science of Can and Can't: A Physicist's Journey through the Land of Counterfactuals|Chiara Marletto|2021|paperback|physics counterfactuals science|2026-99-99
 
 aa137|The Mind Doesn't Work That Way: The Scope and Limits of Computational Psychology|Jerry A. Fodor|2001|hardcover|philosophy mind computational neuroscience psychology|2099-99-99
-aa107|A History of Christianity: The First Three Thousand Years|Diarmaid MacCulloch|2009|paperback|christianity religion history catholicism judaism islam|2099-99-99
 aa097|The Conscious Mind|David J. Chalmers|1997|paperback|consciousness philosophy|2099-99-99
 aa105|Lessons|Ian McEwan|2022|hardcover|fiction|2099-99-99
 aa099|Intuition Pumps and Other Tools for Thinking|Daniel C. Dennett|2014|paperback|philosophy|2099-99-99
