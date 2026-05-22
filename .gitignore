@@ -1,0 +1,7 @@
+/.agent-shell/
+*~
+\#*\#
+.#*
+.ipynb_checkpoints/
+Untitled.ipynb
+.DS_Store

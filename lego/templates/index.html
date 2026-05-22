@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RWPLPJ3ZCL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-RWPLPJ3ZCL');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>e-book of books</title>
+  <style>
+    body { font-family: Arial, sans-serif; font-size: 14px; margin: 20px; }
+    h1 { font-size: 1.6em; margin-bottom: 0.1em; }
+    h2 { font-size: 1.1em; margin-top: 2em; margin-bottom: 0.5em; }
+    .blurb { color: #666; margin-bottom: 1em; }
+    .filters input { padding: 4px; margin: 2px 4px 2px 0; }
+    table { border-collapse: collapse; width: 100%; border: 1px solid #ddd; margin-top: 0.5em; }
+    th { color: white; background: black; text-align: left; padding: 4px; cursor: pointer; }
+    td { text-align: left; padding: 4px; vertical-align: top; }
+    tr:nth-child(even) { background-color: #f2f2f2; }
+    tr:hover { background-color: #D6EEEE; }
+    .reading-list { list-style: none; padding-left: 0; }
+    .reading-list li { padding: 4px 0; border-bottom: 1px solid #eee; }
+    .writings-list { list-style: none; padding-left: 0; }
+    .writings-list li { padding: 4px 0; }
+    .date { color: #888; font-size: 0.85em; }
+  </style>
+</head>
+<body>
+  <h1>e-book of books</h1>
+  <p class="blurb">what's come off the shelf, since 2021...</p>
+
+  {{currently_reading_section}}
+
+  <h2>Finished ({{finished_count}})</h2>
+  <div class="filters">
+    <input type="text" id="titleName" onkeyup="filterTable()" placeholder="title">
+    <input type="text" id="authorName" onkeyup="filterTable()" placeholder="author">
+    <input type="text" id="kwName" onkeyup="filterTable()" placeholder="keyword">
+    <input type="text" id="readDate" onkeyup="filterTable()" placeholder="year (e.g. 2026)">
+  </div>
+  {{finished_table}}
+
+  {{abandoned_section}}
+
+  {{writings_section}}
+
+  <script>
+    function filterTable() {
+      var title = document.getElementById("titleName").value.toUpperCase();
+      var author = document.getElementById("authorName").value.toUpperCase();
+      var kw = document.getElementById("kwName").value.toUpperCase();
+      var year = document.getElementById("readDate").value.toUpperCase();
+      var table = document.getElementById("finishedTable");
+      var tr = table.getElementsByTagName("tr");
+      for (var i = 1; i < tr.length; i++) {
+        var tds = tr[i].getElementsByTagName("td");
+        if (!tds.length) continue;
+        var show =
+          tds[0].textContent.toUpperCase().indexOf(title) > -1 &&
+          tds[1].textContent.toUpperCase().indexOf(author) > -1 &&
+          tds[4].textContent.toUpperCase().indexOf(kw) > -1 &&
+          tds[3].textContent.toUpperCase().indexOf(year) > -1;
+        tr[i].style.display = show ? "" : "none";
+      }
+    }
+
+    function sortTable(n) {
+      var table = document.getElementById("finishedTable");
+      var rows, switching = true, i, x, y, shouldSwitch, dir = "asc", switchcount = 0;
+      while (switching) {
+        switching = false;
+        rows = table.rows;
+        for (i = 1; i < rows.length - 1; i++) {
+          shouldSwitch = false;
+          x = rows[i].getElementsByTagName("TD")[n];
+          y = rows[i + 1].getElementsByTagName("TD")[n];
+          if (dir == "asc" ? x.innerText.toLowerCase() > y.innerText.toLowerCase()
+                           : x.innerText.toLowerCase() < y.innerText.toLowerCase()) {
+            shouldSwitch = true; break;
+          }
+        }
+        if (shouldSwitch) {
+          rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+          switching = true; switchcount++;
+        } else if (switchcount == 0 && dir == "asc") {
+          dir = "desc"; switching = true;
+        }
+      }
+    }
+  </script>
+</body>
+</html>
