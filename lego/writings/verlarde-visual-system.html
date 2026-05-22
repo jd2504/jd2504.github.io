@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RWPLPJ3ZCL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-RWPLPJ3ZCL');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Architecture of the brain&#x27;s visual system</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h1 { font-size: 1.6em; margin-bottom: 0.2em; }
+    .meta { color: #666; font-size: 0.9em; margin-bottom: 2em; }
+    .meta a { color: #666; }
+    p { margin-bottom: 1em; }
+    blockquote {
+      border-left: 3px solid #ccc;
+      margin-left: 0;
+      padding-left: 1em;
+      color: #444;
+    }
+    pre { white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+  <h1>Architecture of the brain&#x27;s visual system</h1>
+  <div class="meta">Notes on Velarde, Makse, Parra (2023) &middot; 2024-04-15</div>
+  <p>Question Velarde, Makse, and Parra (2023) draw attention to recent findings in biological network architectures that highlight differences between biological and artificial networks in the temporal dynamics of vision tasks, namely in the presence of backward network connections and forward/backward connection latency. The question the authors set out to answer is how resulting network instability is mitigated in biological networks using dynamical system theory and recurrent networks. Network performance is also considered.</p>
+<p>Alternatives Two groups of alternatives are explored. First, the authors consider biological network implementation as compared with artificial networks. This first comparison considers feedforward delays in dynamics as well as feedforward-only networks compared to networks that also employ feedback connections. The second group of alternatives consider network connectedness: the degree of network connectedness as well as the distance of backward connections is considered in terms of network stability.</p>
+<p>Logic The authors set out to test backward connections introduced into network architectures for visual tasks; were feedforward temporal delays included, then stability should increase. Further, if layer-ordered structure and greater distances of backward connections were used, then appreciable gains in stability should likewise be observed in the networks. Lastly, if the model were to utilize nonlinear responses, for example in various activation functions and normalization, then stability should see still further improvement.</p>
+<p>Methods The authors approach measurement of effects of the various network architectures on two metrics: stability in the network learning process, or the measure of a model&#x27;s robustness to perturbations and data drift, and performance in object detection and classification tasks.</p>
+<p>To begin with, the authors utilize simplified network structures to illustrate more general features that they aimed to test, drawn from core vision biological networks. Next, they outline a new architecture that includes recurrent maps in the standard convolutional network backbone architecture, producing recurrent CNNs. Finally, the networks were trained using biological time delays rather than artificial ones which proved problematic.</p>
+<p>Results The outcome of the network architectures&#x27; stability and performance metrics show that biological architectures consistently outperform traditional artificial neural network architectures. Considering the alternatives, the authors show that biological delay implementation in feedforward connections adds stability to the network learning process except for cases where feedforward/feedback connection distances are equivalent, yielding equivalent biological and artificial transmission results. When considering feedback connections, performance also sees an improvement in image detection and classification.</p>
+<p>The authors are careful to guard against generalizing results to biological networks which were not analyzed. Some networks also saw conflicting results: different architectures performed best on training data but failed to generalize as well as others on test data.</p>
+<p>Inferences The authors convincingly show that artificial feedforward networks do not perform as well as networks that include feedback with biological delays (which help mitigate instability and achieve improved performance).</p>
+<p>While these results hold true for small artificial networks, further experiments in biological networks may help understanding of instability reduction. Careful experiments on a larger range of network sizes will also illuminate stability and performance limits of feedback connections and delay.</p>
+  <p class="meta"><a href="read.html">&larr; back to index</a></p>
+</body>
+</html>

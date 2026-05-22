@@ -1,0 +1,12 @@
+---
+title: "The Joy of X"
+author: "Steven Strogatz"
+published: 2019
+read: 2025-04-03
+format: Libby
+status: read
+keywords: [mathematics, algebra, calculus, numbers]
+legacy_id: aa159
+---
+
+My high school calculus teacher once spent a class explaining how, without puncturing, you would go about turning a basketball inside out. Sadly, I've held onto the impact more than the content of his explanation. Strogatz doesn't mention sphere eversion, or other turnings-out of sports equipment, but the later chapter on topology is as enlightening, grounding, and fun as all the others. This is a book I want to keep on the shelf for my kids for when they're older and one I wish I had read in high school. I might have been better prepared for my career or at least would have been a teenager less scared of math.

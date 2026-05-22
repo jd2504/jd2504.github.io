@@ -1,0 +1,17 @@
+---
+title: "Being You: A New Science of Consciousness"
+author: "Anil Seth"
+published: 2021
+read: 2025-03-27
+format: Libby
+status: read
+keywords: [consciousness, neuroscience]
+legacy_id: aa120
+---
+
+Seth's main argument is a build on Julien Offray de La Mettrie's l'homme machine: the Beast Machine. He contrasts this with the free energy principle (FEP) and integrated information theory (IIT). The rest of the book is standard neuroscience, for the most part.
+
+Shorter versions of the theory, here:
+
+- Being a Beast Machine: The Somatic Basis of Selfhood, Trends Cogn Sci., Seth A. (doi:10.1016/j.tics.2018.08.008)
+- We Are Beast Machines, Nautilus, Seth A. (https://nautil.us/we-are-beast-machines-238325/)

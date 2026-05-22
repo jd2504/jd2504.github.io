@@ -2,14 +2,14 @@
 
 [eBook of Books](https://jd2504.github.io/lego/read.html)
 
-[2024](https://jd2504.github.io/exaro/reading_2024.txt)
+[2024](https://jd2504.github.io/lego/writings/reading-2024.html)
 
 
 ## writing
 
-[Thoughts on Not In Out Genes, Lewontin, Kamin, and Rose, 1984](https://jd2504.github.io/lego/aa094.txt) [2024-02-20] *Genetics, evolutionary biology, and sociobiology*
+[Thoughts on Not In Our Genes, Lewontin, Kamin, and Rose, 1984](https://jd2504.github.io/lego/not-in-our-genes-lewontin-1984.html) [2024-02-20] *Genetics, evolutionary biology, and sociobiology*
 
-[GPTs and other gollems](https://jd2504.github.io/exaro/harris_gollems.txt) [2023-12-04] *Tristan Harris talk on GPTs and AI*
+[GPTs and other gollems](https://jd2504.github.io/lego/writings/harris-gollems.html) [2023-12-04] *Tristan Harris talk on GPTs and AI*
 
 [LLMs, the brain, and whatever general intelligence is](https://jd2504.github.io/exaro/llms_and_intelligence.html) [2024-12-02]
 
