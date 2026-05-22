@@ -174,7 +174,6 @@ def render_index(books: list, writings: list) -> str:
     return fill(
         load_template("index.html"),
         currently_reading_section=currently,
-        finished_count=str(len(finished)),
         finished_table=finished_table,
         abandoned_section=abandoned_section,
         writings_section=writings_section,
