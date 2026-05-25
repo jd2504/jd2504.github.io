@@ -4,6 +4,8 @@
 
 [2024](https://jd2504.github.io/lego/writings/reading-2024.html)
 
+[2025](http://substack.com/@deerwester/p-183404073)
+
 
 ## writing
 
