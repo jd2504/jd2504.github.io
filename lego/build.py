@@ -4,6 +4,7 @@ Source of truth is the .md files in books/ and writings/. Writings are only
 listed on the index when their front-matter has `publish: true`; book entries
 honor a `status:` field (read / reading / abandoned).
 """
+
 import html
 import re
 import sys
@@ -11,11 +12,14 @@ from pathlib import Path
 
 import yaml
 
+
 LEGO = Path(__file__).parent
 BOOKS = LEGO / "books"
 WRITINGS = LEGO / "writings"
 TEMPLATES = LEGO / "templates"
 GITHUB_BASE = "https://jd2504.github.io/lego/"
+
+
 
 
 def read_entry(path: Path) -> tuple[dict, str]:
@@ -75,7 +79,7 @@ def fill(template: str, **vars) -> str:
     return out
 
 
-# ----- book/index rendering -----------------------------------------------
+# book/index rendering
 
 def book_link(meta: dict, slug: str, has_body: bool) -> str:
     """Return the cell content for the leftmost column in the index table."""
@@ -209,7 +213,7 @@ def render_finished_table(finished: list) -> str:
     return "\n".join(rows)
 
 
-# ----- legacy redirects ----------------------------------------------------
+# legacy redirects
 
 def render_redirect(target: str) -> str:
     return (
@@ -220,7 +224,7 @@ def render_redirect(target: str) -> str:
     )
 
 
-# ----- main ----------------------------------------------------------------
+
 
 def main():
     books = []
