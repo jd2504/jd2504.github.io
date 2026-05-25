@@ -143,6 +143,7 @@ def render_index(books: list, writings: list) -> str:
         items = "\n".join(
             f'    <li><strong>{html.escape(m["title"])}</strong> &mdash; '
             f'{html.escape(m.get("author", ""))}'
+            + (f' ({m["published"]})' if m.get("published") else "")
             + (f' <span class="date">started {m["started"]}</span>' if m.get("started") else "")
             + "</li>"
             for _, m, _ in reading
