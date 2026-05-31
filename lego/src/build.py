@@ -7,16 +7,17 @@ honor a `status:` field (read / reading / abandoned).
 
 import html
 import re
-import sys
 from pathlib import Path
 
 import yaml
 
 
-LEGO = Path(__file__).parent
-BOOKS = LEGO / "books"
-WRITINGS = LEGO / "writings"
-TEMPLATES = LEGO / "templates"
+SRC = Path(__file__).parent          # lego/src — hand-edited sources
+LEGO = SRC.parent                    # lego — generated output root (public URLs)
+BOOKS = SRC / "books"
+WRITINGS = SRC / "writings"
+TEMPLATES = SRC / "templates"
+WRITINGS_OUT = LEGO / "writings"     # generated writing pages keep their public path
 GITHUB_BASE = "https://jd2504.github.io/lego/"
 
 
@@ -247,7 +248,7 @@ def main():
         meta, body = read_entry(path)
         writings.append((slug, meta))
         if body.strip():
-            out = WRITINGS / f"{slug}.html"
+            out = WRITINGS_OUT / f"{slug}.html"
             out.write_text(render_writing_page(slug, meta, body))
 
     index = render_index(books, writings)
