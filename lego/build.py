@@ -133,9 +133,9 @@ def render_index(books: list, writings: list) -> str:
     reading = [b for b in books if b[1].get("status") == "reading"]
     abandoned = [b for b in books if b[1].get("status") == "abandoned"]
 
-    finished.sort(key=lambda b: b[1].get("read", ""), reverse=True)
-    reading.sort(key=lambda b: b[1].get("started", b[1].get("read", "")), reverse=True)
-    abandoned.sort(key=lambda b: b[1].get("read", ""), reverse=True)
+    finished.sort(key=lambda b: str(b[1].get("read", "")), reverse=True)
+    reading.sort(key=lambda b: str(b[1].get("started", b[1].get("read", ""))), reverse=True)
+    abandoned.sort(key=lambda b: str(b[1].get("read", "")), reverse=True)
 
     finished_table = render_finished_table(finished)
 
@@ -162,7 +162,7 @@ def render_index(books: list, writings: list) -> str:
         abandoned_section = ""
 
     published_writings = [(s, m) for s, m in writings if m.get("publish")]
-    published_writings.sort(key=lambda w: w[1].get("date", ""), reverse=True)
+    published_writings.sort(key=lambda w: str(w[1].get("date", "")), reverse=True)
     if published_writings:
         items = []
         for slug, m in published_writings:
