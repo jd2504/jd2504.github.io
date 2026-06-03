@@ -1,20 +1,3 @@
-## build
-
-The reading log under `lego/` is generated from markdown sources by `lego/src/build.py`.
-
-Requires Python 3.9+ and PyYAML:
-
-```
-pip install -r lego/requirements.txt
-python3 lego/src/build.py
-```
-
-Sources live in `lego/src/` (`books/*.md`, `writings/*.md`, `templates/`). The
-build writes generated HTML to `lego/` (`read.html`, per-entry pages, `aaNNN.html`
-redirects) and `lego/writings/`. Generated HTML is committed, so GitHub Pages
-serves it directly — after editing a source `.md`, rebuild and commit the output.
-
-
 ## reading
 
 [eBook of Books](https://jd2504.github.io/lego/read.html)
@@ -44,3 +27,20 @@ serves it directly — after editing a source `.md`, rebuild and commit the outp
 [learn medical neuroscience site](https://www.learnmedicalneuroscience.nl/)
 
 [MNE tools](https://mne.tools/stable/index.html)
+
+
+## build
+
+The reading log under `lego/` is generated from markdown sources by `lego/src/build.py`.
+
+Requires Python 3.9+ and PyYAML:
+
+```
+pip install -r lego/requirements.txt
+python3 lego/src/build.py
+```
+
+Sources live in `lego/src/` (`books/*.md`, `writings/*.md`, `templates/`). The
+build writes generated HTML to `lego/` (`read.html`, per-entry pages, `aaNNN.html`
+redirects) and `lego/writings/`. Generated HTML is committed, so GitHub Pages
+serves it directly — after editing a source `.md`, rebuild and commit the output.
